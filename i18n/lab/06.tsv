@@ -1,0 +1,51 @@
+Hồi quy, giá & khuyến mãi	Regression, price & promotions
+Tự chọn biến giải thích, đọc hệ số – R² – p-value, tách baseline/uplift và kiểm chứng đề xuất khuyến mãi bằng lãi gộp.	Choose your explanatory variables, read the coefficients – R² – p-values, split baseline/uplift and test a promotion proposal on gross margin.
+Chuỗi kênh MT (nhiều khuyến mãi	MT channel series (many promotions
+Xu hướng (t	Trend (t
+Mùa khai giảng (T8–T9	Back-to-school season (Aug–Sep
+Mùa hè (T4–T7	Summer (Apr–Jul
+Tỷ trọng trước Tết	Pre-Tết share
+Mức giảm giá KM	Promotion discount depth
+Tháng sau KM	Post-promotion month
+Biến giải thích (chỉ biến BIẾT TRƯỚC được tại thời điểm dự báo	Explanatory variables (only variables KNOWN in advance at forecast time
+Hệ số & độ khớp	Coefficients & fit
+Kiểm chứng đợt khuyến mãi	Testing the promotion
+Biến	Variable
+Hệ số chặn	Intercept
+Hệ số	Coefficient
+Sai số chuẩn	Standard error
+Giữ biến?	Keep variable?
+Giữ	Keep
+Cân nhắc	Reconsider
+R² hiệu chỉnh	Adjusted R²
+Mỗi 10% giảm giá ≈	Each 10% discount ≈
+thùng/tháng	cases/month
+Thêm biến luôn làm R² tăng — nhìn R² hiệu chỉnh và p-value. Biến	Adding variables always raises R² — look at adjusted R² and p-values. The
+tháng sau KM	post-promotion month
+có ý nghĩa kinh doanh rõ (khách đã găm hàng)	variable has clear business meaning (customers have stocked up)
+nên có thể giữ dù p hơi cao — miễn là ghi lý do.	so it can be kept even if p is a little high — as long as the reason is recorded.
+thực tế, mô hình, baseline	actual, model, baseline
+Thực tế	Actual
+Mô hình	Model
+Tháng KM	Promotion months
+Lịch KM 10–12/2026:**	Promotion calendar Oct–Dec 2026:**
+giảm	discount
+– Marketing kỳ vọng +	– Marketing expects +
+không có	none
+Tháng	Month
+Dự báo (mô hình	Forecast (model
+#### Lãi gộp: có nên chạy khuyến mãi?	#### Gross margin: should we run the promotion?
+Giá NPP (k/thùng	Distributor price (k/case
+Giá vốn (k/thùng	Unit cost (k/case
+Mức giảm	Discount depth
+Phí trưng bày (triệu đ	Display fee (VND million
+Nhà cung cấp/brand đồng tài trợ (% giá	Supplier/brand co-funding (% of price
+Lãi gộp 2 tháng — không KM	2-month gross margin — no promotion
+tr.đ	VND m
+Lãi gộp 2 tháng — có KM	2-month gross margin — with promotion
+Uplift hòa vốn	Break-even uplift
+Không thể hòa vốn	Cannot break even
+Đóng vai: Marketing nói	Role-play: Marketing says
+giảm 25%, chắc chắn tăng 110%	25% off, a guaranteed 110% lift
+. Demand Planner hỏi: đợt tương tự trước tăng bao nhiêu? bao nhiêu cửa hàng trưng bày?	. The Demand Planner asks: how much did similar past events lift? how many stores have displays?
+ăn lạm sang mã nào? ai trả phần giảm giá? → rồi trả lời bằng bảng trên.	which items get cannibalised? who pays for the discount? → then answer with the table above.

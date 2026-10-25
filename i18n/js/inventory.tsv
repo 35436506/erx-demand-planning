@@ -1,0 +1,59 @@
+!	)} tr (${	)}m (${
+!	+ " tr" : "–"	+ "m" : "–"
+Thiết lập chính sách	Policy setup
+Chính sách	Policy
+Chạy mô phỏng 52 tuần	Run a 52-week simulation
+Nhu cầu mới	New demand
+Nhu cầu tuần ~ Chuẩn	Weekly demand ~ Normal
+thùng. Chi phí (nghìn đồng): tồn kho	cases. Costs (VND thousand): holding
+/thùng/tuần · đặt hàng	/case/week · ordering
+/lần · mất bán	/order · lost sale
+/thùng. Tồn đầu kỳ	/case. Opening stock
+thùng. Mục tiêu	cases. Goal
+với tổng chi phí thấp nhất.	at the lowest total cost.
+Chọn tham số rồi bấm chạy. Mỗi lần thử được ghi vào bảng bên dưới.	Choose the parameters and press run. Each attempt is logged in the table below.
+Các lần thử	Attempts
+Gợi ý lý thuyết (Chương 9, 18	Theory hints (Chapters 9, 18
+s, Q): s = μL + zσ√L. Với L = 2: z	s, Q): s = μL + zσ√L. With L = 2: z
+R, S): S = μ(R + L) + zσ√(R + L). R = 2 → S ≈	R, S): S = μ(R + L) + zσ√(R + L). R = 2 → S ≈
+Lưu ý: z ở trên là mức phục vụ	Note: the z above is the
+chu kỳ	cycle
+α); fill rate (β) thường cao hơn α với cùng tồn an toàn.	service level (α); the fill rate (β) is usually higher than α for the same safety stock.
+s, Q) · liên tục	s, Q) · continuous
+R, S) · định kỳ	R, S) · periodic
+Cố định 2 tuần	Fixed 2 weeks
+Dao động 1–3 tuần	Variable 1–3 weeks
+Tham số	Parameters
+Điểm đặt hàng s	Reorder point s
+Lượng đặt Q	Order quantity Q
+Chu kỳ R (tuần	Review period R (weeks
+Mức tối đa S	Order-up-to level S
+Kết quả lần thử	Result of attempt
+Fill rate (β	Fill rate (β
+mục tiêu ≥	target ≥
+Tuần không thiếu (α	Weeks without shortage (α
+Tồn bình quân	Average stock
+thùng	cases
+Số lần đặt	Orders placed
+Tổng chi phí	Total cost
+triệu đồng	VND million
+Chi phí: tồn kho	Cost: holding
+tr · đặt hàng	m · ordering
+tr · mất bán	m · lost sales
+thùng).	cases).
+Đạt mục tiêu phục vụ. Thử giảm tồn kho (s hoặc S thấp hơn, hoặc Q gần EOQ) để hạ chi phí mà vẫn giữ ≥ 98%.	Service target met. Try cutting stock (a lower s or S, or Q closer to EOQ) to lower the cost while keeping ≥ 98%.
+Chưa đạt 98%: tăng điểm đặt hàng s (hoặc S) để che biến động trong lead time. Bật lead time dao động để thấy cần thêm bao nhiêu tồn an toàn.	Below 98%: raise the reorder point s (or S) to cover variability during the lead time. Switch on variable lead time to see how much extra safety stock you need.
+Tồn kho thực có	On-hand stock
+Vị thế tồn kho (tồn + đang về	Inventory position (on hand + in transit
+Nhu cầu	Demand
+Mất bán	Lost sales
+Diễn biến tồn kho	Inventory over time
+Chưa có lần thử nào.	No attempts yet.
+Tồn BQ	Avg stock
+Chi phí (tr.đ	Cost (VND m
+1–3 tuần	1–3 weeks
+2 tuần	2 weeks
+Dòng xanh đậm = phương án rẻ nhất đạt mục tiêu (lead time cố định). Bộ nhu cầu #	The dark green row = the cheapest option meeting the target (fixed lead time). Demand set #
+— đổi “Nhu cầu mới” để thử lại.	— press “New demand” to try again.
+Kỷ lục của bạn (bộ nhu cầu #	Your record (demand set #
+chi phí thấp nhất đạt fill rate ≥ 98%	lowest cost reaching a fill rate ≥ 98%

@@ -1,0 +1,25 @@
+Exponential Smoothing & dự báo cuốn chiếu	Exponential Smoothing & rolling forecasts
+Dự báo mới = dự báo cũ + α × sai số. Kéo α để cảm nhận; so với α tối ưu (≈ Solver) chọn trên TRAIN; rồi đo sai số theo độ trễ.	New forecast = old forecast + α × error. Drag α to get a feel; compare with the optimal α (≈ Solver) chosen on TRAIN; then measure error by lag.
+Phương pháp	Method
+Holt tắt dần	Damped Holt
+Tham số & kết quả trên test	Parameters & test results
+Cuốn chiếu theo độ trễ (lag	Rolling forecasts by lag
+α (mức	α (level
+β (xu hướng	β (trend
+φ (tắt dần	φ (damping
+Thực tế	Actual
+Khớp 1 bước (tham số của bạn	1-step fit (your parameters
+Dự báo test (của bạn	Test forecast (yours
+Dự báo test (tối ưu trên train	Test forecast (optimised on train
+Phiên bản	Version
+Tham số của bạn	Your parameters
+Tối ưu trên train	Optimised on train
+Naive (mốc	Naive (benchmark
+Tham số tối ưu:	Optimal parameters: 
+α nhỏ → mượt, chậm phản ứng; α lớn → bám sát, dễ đuổi theo nhiễu. SSE train nhỏ nhất KHÔNG bảo đảm WMAPE test nhỏ nhất —	Small α → smooth, slow to react; large α → tracks closely, easily chases noise. The lowest train SSE does NOT guarantee the lowest test WMAPE —
+đó là lý do luôn chấm ngoài mẫu.	which is why we always score out of sample.
+Số tháng đánh giá cuốn chiếu	Months of rolling evaluation
+Độ trễ tối đa (lag	Maximum lag
+WMAPE theo độ trễ	WMAPE by lag
+<b>Đo KPI ở đúng độ trễ.</b> Nếu nhà máy khóa lịch trước 3 tháng (vùng đóng băng), độ chính xác có ý nghĩa vận hành là lag-3,	<b>Measure KPIs at the right lag.</b> If the factory freezes its schedule 3 months ahead (the frozen zone), the operationally meaningful accuracy is lag-3,
+không phải lag-1. Sales muốn sửa số trong vùng đóng băng? → hỏi: sửa để làm gì, ai chịu chi phí đổi lịch.	not lag-1. Sales wants to change a number inside the frozen zone? → ask: what for, and who pays for rescheduling.

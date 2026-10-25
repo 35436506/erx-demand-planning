@@ -1,0 +1,34 @@
+/* ERX shared design tokens — the same variables every ERX module can load so the central site looks like one product.
+   Load before the module's own CSS:  <link rel="stylesheet" href="assets/css/erx-tokens.css">
+   Light/dark: follows the OS, or the user's choice stored as localStorage "erx_theme" → <html data-theme="light|dark">.
+   Brand: ERX green #01AE42; text font Be Vietnam Pro (assets/fonts, SIL OFL). */
+:root {
+  --ink: #1F2421; --ink-2: #4A504C; --muted: #6E726F; --line: #E2E6E3; --line-2: #EEF1EF;
+  --bg: #FFFFFF; --bg-2: #F6F8F7; --card: #FFFFFF; --tint: #EEF7F1; --tint-2: #E2F2E8;
+  --green: #008A3A; --brand: #01AE42; --green-ink: #006B2D; --orange: #C2620A; --blue: #2563C9; --purple: #8E44AD; --red: #B42318;
+  --radius: 14px; --shadow: 0 1px 2px rgba(16,24,20,.05), 0 4px 16px rgba(16,24,20,.05);
+  --font: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --maxw: 1160px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #E8ECE9; --ink-2: #C4CAC6; --muted: #9BA29E; --line: #2C332F; --line-2: #232926;
+    --bg: #121614; --bg-2: #171C19; --card: #1A201D; --tint: #16291E; --tint-2: #1B3324;
+    --green: #3CC872; --brand: #3CC872; --green-ink: #7FE0A4; --orange: #F0A055; --blue: #7BA7F0; --purple: #C08BE0; --red: #F4877D;
+    --shadow: 0 1px 2px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"] {
+  --ink: #E8ECE9; --ink-2: #C4CAC6; --muted: #9BA29E; --line: #2C332F; --line-2: #232926;
+  --bg: #121614; --bg-2: #171C19; --card: #1A201D; --tint: #16291E; --tint-2: #1B3324;
+  --green: #3CC872; --brand: #3CC872; --green-ink: #7FE0A4; --orange: #F0A055; --blue: #7BA7F0; --purple: #C08BE0; --red: #F4877D;
+  --shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+/* language switch (VI | EN) — shared convention for every ERX module */
+.lang-switch { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 999px; padding: 2px; margin-left: 4px; flex: none; }
+.lang-switch a { font-size: .78rem; font-weight: 700; letter-spacing: .04em; color: var(--muted); padding: 4px 9px; border-radius: 999px; line-height: 1.2; }
+.lang-switch a:hover { color: var(--ink); text-decoration: none; background: var(--bg-2); }
+.lang-switch a[aria-current="true"] { background: var(--green); color: #fff; }
+.lang-note { flex-basis: 100%; color: var(--muted); }
+@media (max-width: 1140px) { .lang-switch { margin-left: 0; } }

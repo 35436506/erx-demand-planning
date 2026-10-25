@@ -1,0 +1,74 @@
+Không xu hướng	No trend
+Xu hướng cộng (thẳng	Additive trend (straight
+Xu hướng nhân (cong	Multiplicative trend (curved
+Không mùa vụ	No seasonality
+Mùa vụ cộng	Additive seasonality
+Mùa vụ nhân	Multiplicative seasonality
+Seasonal Naive · HW cộng không xu hướng	Seasonal Naive · additive HW without trend
+HW nhân không xu hướng	Multiplicative HW without trend
+Holt (hoặc Holt tắt dần	Holt (or damped Holt
+Holt-Winters cộng	Additive Holt-Winters
+Holt-Winters nhân	Multiplicative Holt-Winters
+Holt trên log(y) · xu hướng nhân	Holt on log(y) · multiplicative trend
+Xu hướng nhân + mùa vụ cộng (hiếm	Multiplicative trend + additive seasonality (rare
+Holt-Winters nhân trên log hoặc ETS(M,M,M	Multiplicative Holt-Winters on log, or ETS(M,M,M
+Đoán ô Pegels	Guess the Pegels cell
+Mỗi vòng bạn thấy 36 tháng của một sản phẩm. Hãy chọn ô đúng trong ma trận Pegels	Each round shows 36 months of one product. Pick the right cell in the Pegels matrix
+xu hướng	trend
+không · cộng = đường thẳng · nhân = đường cong) ×	none · additive = straight line · multiplicative = curve) ×
+mùa vụ	seasonality
+không · cộng = biên độ không đổi · nhân = biên độ phình theo mức bán).	none · additive = constant amplitude · multiplicative = amplitude swelling with the sales level).
+Độ khó	Difficulty
+Bắt đầu	Start
+vòng	rounds
+Kỷ lục của bạn	Your record
+Dễ	Easy
+· Khó	· Hard
+Bốn câu hỏi khi nhìn một chuỗi	Four questions when looking at a series
+Mức trung bình từng năm có tăng/giảm không? Tăng đều một	Does the yearly average rise or fall? Rising by a constant
+lượng	amount
+→ cộng; tăng đều một	→ additive; rising by a constant
+tỷ lệ %	percentage
+đường cong dốc dần) → nhân.	a curve getting steeper) → multiplicative.
+Đỉnh/đáy có lặp lại cùng tháng mỗi năm không? → có mùa vụ.	Do peaks/troughs repeat in the same months every year? → seasonality.
+Biên độ mùa vụ phình to khi mức bán tăng? → mùa vụ nhân; giữ nguyên → cộng.	Does the seasonal amplitude swell as sales grow? → multiplicative seasonality; stays the same → additive.
+Không có xu hướng thì mùa vụ cộng và nhân trông giống nhau — cả hai đều được tính đúng.	Without a trend, additive and multiplicative seasonality look alike — both count as correct.
+Dễ (ít nhiễu	Easy (little noise
+Khó (nhiều nhiễu	Hard (lots of noise
+Vòng	Round
+Chọn ô Pegels	Pick the Pegels cell
+Xem kết quả	See results
+Vòng tiếp	Next round
+Điểm	Score
+Sau khi chọn, đường	After you choose, the
+nét đứt	dashed
+cho thấy xu hướng thật và	line shows the true trend and the
+vùng mờ	shaded band
+cho thấy biên độ mùa vụ.	shows the seasonal amplitude.
+Nhu cầu	Demand
+Xu hướng thật	True trend
+Chuỗi nhu cầu cần đoán	Demand series to guess
+Mức nền đi ngang qua các năm.	The base level stays flat across the years.
+Mức nền tăng đều một lượng mỗi tháng — đường xu hướng là	The base level rises by a constant amount each month — the trend line is a
+đường thẳng	straight line
+Mức nền tăng theo tỷ lệ % — đường xu hướng	The base level rises by a percentage — the trend line
+cong dốc dần	curves ever more steeply
+Không có đỉnh/đáy lặp lại theo tháng.	No peaks/troughs repeating by month.
+Biên độ mùa vụ giữ nguyên dù mức bán thay đổi (dải song song).	The seasonal amplitude stays the same as sales change (parallel band).
+Biên độ mùa vụ phình to khi mức bán tăng (dải loe rộng).	The seasonal amplitude swells as sales grow (widening band).
+Vì không có xu hướng, mùa vụ cộng và nhân trông giống nhau — chọn A hay M đều đúng.	Because there is no trend, additive and multiplicative seasonality look alike — A or M are both correct.
+Chính xác!	Correct!
+Chưa đúng.	Not quite.
+Đáp án: ô	Answer: cell
+Hoàn thành!	Finished!
+kỷ lục mới	new record
+kỷ lục	record
+Mắt tinh!	Sharp eyes!
+Bạn đọc dữ liệu rất tốt.	You read data very well.
+Khá tốt.	Quite good.
+Lỗi hay gặp: nhầm xu hướng cộng với nhân khi nhiễu lớn, hoặc bỏ sót mùa vụ yếu.	Common mistakes: confusing additive and multiplicative trend when noise is high, or missing weak seasonality.
+Cần luyện thêm.	Needs more practice.
+Hãy nhìn đường mức trung bình từng năm trước, rồi mới nhìn biên độ.	Look at the yearly average level first, then at the amplitude.
+Nhớ rằng ô Pegels chỉ là điểm xuất phát — mô hình cuối cùng luôn được chọn bằng sai số ngoài mẫu (Buổi 3–5).	Remember the Pegels cell is only a starting point — the final model is always chosen on out-of-sample error (Sessions 3–5).
+Chơi lại	Play again
+Về Buổi 5	Back to Session 5

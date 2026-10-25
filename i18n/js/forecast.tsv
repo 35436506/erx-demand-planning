@@ -1,0 +1,64 @@
+!	(sai ${	(off by ${
+Người vs máy: ai dự báo giỏi hơn	Human vs machine: who forecasts better
+Bạn đóng vai Demand Planner của MBF. Mỗi vòng bạn thấy lịch sử đến tháng hiện tại và các thông tin kinh doanh đã biết (khuyến mãi đã duyệt, lịch Tết). Hãy dự báo	You play MBF's Demand Planner. Each round you see the history up to the current month and the business information already known (approved promotions, the Tết calendar). Forecast
+tháng kế tiếp	the next month
+. Sau 12 vòng, so sai số của bạn với ba phương pháp máy	. After 12 rounds, compare your error with three machine methods
+và	and
+SES (α = 0,3	SES (α = 0.3
+Chuỗi	Series
+Bắt đầu 12 vòng	Start 12 rounds
+FVA (Forecast Value Added) = sai số của máy − sai số của bạn. FVA dương nghĩa là phán đoán của bạn	FVA (Forecast Value Added) = the machine's error − your error. A positive FVA means your judgement
+thật sự	really
+làm dự báo tốt hơn (Buổi 8).	made the forecast better (Session 8).
+Cùng tháng năm trước	Same month last year
+Khuyến mãi đã duyệt tháng tới	Approved promotion next month
+giảm	discount
+năm trước cùng tháng: giảm	same month last year: discount
+Tháng tới: không có khuyến mãi đã duyệt	Next month: no approved promotion
+Lịch Tết tháng tới	Tết calendar next month
+% số ngày mua sắm trước Tết	% of pre-Tết shopping days
+% sau Tết	% after Tết
+năm trước	last year
+· dự báo tháng	· forecast for
+Thông tin đã biết	Known information
+Tháng vừa qua	Last month
+Dự báo của bạn (thùng	Your forecast (cases
+Chốt dự báo	Lock in forecast
+Xem dự báo SES	Show the SES forecast
+bắt đầu dự báo	forecast starts
+Thực tế	Actual
+Dự báo của bạn	Your forecast
+Lịch sử và dự báo	History and forecast
+Tháng	Month
+thực tế	actual
+· bạn	· you
+SES (α = 0,3) dự báo	SES (α = 0.3) forecasts
+. Lưu ý	. Beware of
+neo	anchoring
+anchoring): khi đã thấy số của máy, người ta hay chỉnh rất ít quanh con số đó — hãy tự hỏi thông tin kinh doanh có đủ mạnh để chỉnh không.	): once people have seen the machine's number they tend to adjust very little around it — ask yourself whether the business information is strong enough to justify an adjustment.
+Bảng điểm	Scoreboard
+Sai số WMAPE của bạn và của máy sẽ cập nhật sau mỗi vòng.	Your WMAPE and the machine's will update after each round.
+Bảng điểm sau	Scoreboard after
+tháng	months
+Bạn	You
+FVA so với SES	FVA vs SES
+điểm %	% points
+điểm	points
+Kết quả ·	Results ·
+WMAPE của bạn	Your WMAPE
+kỷ lục mới với chuỗi này	new record for this series
+kỷ lục	record
+Máy tốt nhất	Best machine
+Bias của bạn	Your bias
+dương = dự báo cao	positive = forecast too high
+Số lần xem SES	Times SES was shown
+Phương pháp	Method
+FVA của bạn so với PP này	Your FVA vs this method
+Bạn thắng máy!	You beat the machine!
+Phán đoán của bạn có giá trị gia tăng — nhờ dùng thông tin khuyến mãi/Tết hay nhờ may mắn? Thử chuỗi khác để kiểm chứng.	Your judgement added value — thanks to the promotion/Tết information or to luck? Try another series to check.
+Máy thắng.	The machine wins.
+Đây là kết quả rất thường gặp trong nghiên cứu (Fildes et al., 2009): điều chỉnh nhỏ, thiếu căn cứ thường làm dự báo kém đi. Chỉ nên chỉnh khi có thông tin mà máy không có.	This is a very common result in research (Fildes et al., 2009): small, poorly grounded adjustments usually make forecasts worse. Only adjust when you have information the machine doesn't.
+Chơi lại chuỗi này	Play this series again
+Chọn chuỗi khác	Choose another series
+So sánh dự báo	Forecast comparison
+Không tải được dữ liệu trò chơi.	Could not load the game data.

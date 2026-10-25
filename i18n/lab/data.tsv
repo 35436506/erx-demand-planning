@@ -1,0 +1,135 @@
+Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP)	Shipments diverge from sell-out (distributor loading/destocking)
+Số ghi theo đơn vị lẻ, chia 24	Recorded in single units, divide by 24
+Dùng PO của chuỗi (MT)	Use the chain's PO (MT)
+Quy đổi theo 12 ngày hết hàng	Scaled up for 12 stock-out days
+Quy đổi theo 7 ngày hết hàng	Scaled up for 7 stock-out days
+Tết Nguyên Đán 2024-02-10	Lunar New Year (Tết) 2024-02-10
+9.9 online sale; khai giảng	9.9 online sale; back to school
+Tết Nguyên Đán 2025-01-29	Lunar New Year (Tết) 2025-01-29
+Tết Nguyên Đán 2026-02-17	Lunar New Year (Tết) 2026-02-17
+Tết Nguyên Đán 2027-02-06	Lunar New Year (Tết) 2027-02-06
+Dây chuyền mì gói (N01,N02,N04,N05,N06)	Packet-noodle line (N01,N02,N04,N05,N06)
+Dây chuyền mì ly (N03)	Cup-noodle line (N03)
+Dây chuyền chiết rót nước chấm (S01,S02,S06N)	Sauce bottling line (S01,S02,S06N)
+thùng	cases
+Bảo trì 1 tuần	1 week of maintenance
+Mã hàng (mã ERP)	Item code (ERP code)
+Mã hàng kế hoạch dùng để nối lịch sử	Planning item code used to join history
+Đơn vị kế hoạch	Planning unit
+Số đơn vị bán lẻ/thùng	Retail units per case
+Giá bán NPP / giá vốn	Distributor price / unit cost
+Hạn sử dụng	Shelf life
+Thời gian bổ sung (sản xuất/nhập)	Replenishment lead time (production/import)
+Lượng đặt/sản xuất tối thiểu	Minimum order/production quantity
+Tháng (YYYY-MM)	Month (YYYY-MM)
+Kênh	Channel
+Số lượng đặt hàng	Quantity ordered
+Số lượng xuất kho	Quantity shipped
+Hàng trả về ghi nhận trong tháng	Returns recorded in the month
+Số ngày hết hàng trong tháng	Stock-out days in the month
+Số bán ra từ NPP tới cửa hàng (DMS)	Distributor-to-store sell-out (DMS)
+Mức giảm giá	Discount depth
+Uplift Marketing kỳ vọng	Uplift expected by Marketing
+Giá thực sau khuyến mãi	Net price after promotion
+Tỷ trọng 35 ngày trước Tết rơi vào tháng	Share of the 35 pre-Tết days falling in the month
+Tỷ trọng 15 ngày sau Tết rơi vào tháng	Share of the 15 post-Tết days falling in the month
+% hạn dùng còn lại	% of shelf life remaining
+Bán thực tế 14 ngày đầu tháng 10/2026	Actual sales in the first 14 days of October 2026
+Năng lực sản xuất	Production capacity
+Các phiên bản forecast lag-1	Lag-1 forecast versions
+số	number
+gói/ly/chai/hộp	packet/cup/bottle/box
+nghìn đồng/đơn vị kế hoạch	VND thousand/planning unit
+ngày	days
+tuần	weeks
+đơn vị kế hoạch	planning units
+nghìn đồng	VND thousand
+thùng/tháng	cases/month
+S06 và S06N là cùng một hàng kế hoạch (đổi mã)	S06 and S06N are the same planning item (code change)
+Dùng cột này để ghép S06+S06N	Use this column to join S06+S06N
+Mọi số lượng trong sales_history tính theo đơn vị này	All quantities in sales_history are in this unit
+Dùng để phát hiện lỗi đơn vị	Used to detect unit errors
+Dùng cho quy đổi sản lượng → giá trị	Used to convert volume → value
+Dùng cho Safety Stock	Used for Safety Stock
+36 tháng: 2023-10 → 2026-09	36 months: 2023-10 → 2026-09
+GT = truyền thống (gồm HoReCa/B2B); MT = siêu thị, chuỗi	GT = general trade (incl. HoReCa/B2B); MT = supermarkets, chains
+MT: PO của chuỗi, ghi đủ cả khi hết hàng. GT: NPP không ghi đơn bị từ chối	MT: chain POs, recorded in full even during stock-outs. GT: distributors don't record refused orders
+Bị giới hạn bởi tồn kho; có đẩy hàng cuối quý ở GT	Constrained by stock; quarter-end loading in GT
+Đây là số 'doanh số' trên báo cáo tài chính — KHÔNG phải nhu cầu	This is the 'sales' figure in the financial reports — NOT demand
+Từ báo cáo kho	From the warehouse report
+Chỉ có cho N01, N02, S01 kênh GT	Only available for N01, N02, S01 in GT
+Thường lạc quan — kiểm chứng bằng dữ liệu	Usually optimistic — check against the data
+Tăng giá mì 5% từ 01/2025	Noodle prices up 5% from 01/2025
+Biến giải thích cho hiệu ứng Tết dịch tháng	Explanatory variable for the moving-Tết effect
+Ngưỡng nhận hàng của MT thường ≥ 2/3 hạn dùng	MT usually only accepts goods with ≥ 2/3 of shelf life left
+So với forecast tháng × 14/31	Compare with the monthly forecast × 14/31
+Dùng cho FVA ở Buổi 8	Used for FVA in Session 8
+Lấp đầy kênh (pipeline fill)	Channel fill (pipeline fill)
+Sự kiện thật: tin đồn tăng giá	Real event: price-rise rumour
+Trưng bày + giảm giá	Display + discount
+Giảm giá trực tiếp	Direct discount
+Chiết khấu thương mại NPP	Distributor trade discount
+Mua 2 tặng 1 (quy đổi)	Buy 2 get 1 free (equivalent)
+Đã chạy	Completed
+Đã duyệt	Approved
+Kế hoạch (chưa duyệt)	Planned (not yet approved)
+Mì Tôm Chua Cay 75g	Hot & Sour Shrimp Noodles 75g
+Mì Bò Hầm 75g	Braised Beef Noodles 75g
+Mì Ly Hải Sản 65g	Seafood Cup Noodles 65g
+Phở Bò Gói 70g	Beef Phở Packet 70g
+Mì Trộn Xốt Cay 90g	Spicy Dry Noodles 90g
+Mì Chay Rau Nấm 75g	Vegetarian Mushroom Noodles 75g
+Nước Mắm Cá Cơm 500ml	Anchovy Fish Sauce 500ml
+Nước Tương Đậu Nành 500ml	Soy Sauce 500ml
+Tương Ớt Chua Ngọt 250g	Sweet Chilli Sauce 250g
+Hạt Nêm Thịt Heo 400g	Pork Seasoning Granules 400g
+Dầu Hào 350g	Oyster Sauce 350g
+Nước Mắm Cá Cơm 1L (chai PET – mã cũ)	Anchovy Fish Sauce 1L (PET bottle – old code)
+Trà Xanh Chanh 450ml	Lemon Green Tea 450ml
+Nước Tăng Lực Lon 250ml	Energy Drink Can 250ml
+Sữa Đậu Nành Hộp 200ml	Boxed Soy Milk 200ml
+Nước Yến Lon 190ml	Bird's Nest Drink Can 190ml
+Trà Sữa Chai 350ml	Bottled Milk Tea 350ml
+Snack Khoai Tây 50g	Potato Snack 50g
+Bánh Quy Bơ Hộp Thiếc 400g	Butter Cookies Tin 400g
+Kẹo Dẻo Trái Cây 100g	Fruit Gummies 100g
+Giỏ Quà Tết Cao Cấp	Premium Tết Gift Basket
+Hạt Nêm Bao 10kg (HoReCa)	Seasoning Granules 10kg Sack (HoReCa)
+Nước Mắm Can 20L (HoReCa)	Fish Sauce 20L Jerrycan (HoReCa)
+Bột Gia Vị OEM (lô 500 kg)	OEM Seasoning Powder (500 kg batch)
+Nước Mắm Cá Cơm 1L (chai thủy tinh – mã mới)	Anchovy Fish Sauce 1L (glass bottle – new code)
+Mì ăn liền	Instant noodles
+Gia vị	Condiments
+Đồ uống	Beverages
+Bánh kẹo & quà	Confectionery & gifts
+hộp	box
+lô	batch
+Ổn định, khối lượng lớn	Stable, high volume
+Ổn định, khuyến mãi MT	Stable, MT promotions
+Tăng trưởng	Growing
+Giảm nhẹ	Slight decline
+Sản phẩm mới (ra mắt 07/2025)	New product (launched 07/2025)
+Ngừng bán (hàng cuối 06/2026)	Discontinued (last stock 06/2026)
+Mùa vụ Tết mạnh	Strong Tết seasonality
+Mùa vụ Tết	Tết seasonality
+Khuyến mãi dày	Frequent promotions
+Mùa vụ Tết, tăng trưởng	Tết seasonality, growing
+Biến động vừa	Moderately variable
+Đổi mã → S06N từ 02/2025	Code change → S06N from 02/2025
+Mùa hè mạnh (nhân)	Strong summer (multiplicative)
+Tăng trưởng + mùa hè	Growing + summer
+Mùa khai giảng	Back-to-school season
+Quà Tết	Tết gifts
+Xu hướng mới, biến động	New trend, variable
+Khuyến mãi + khai giảng	Promotions + back to school
+Mùa vụ quà Tết, 1 đỉnh/năm	Tết gift seasonality, 1 peak/year
+Biến động mạnh	Highly variable
+Rời rạc, chỉ mùa Tết	Intermittent, Tết season only
+Gộp lô (lumpy)	Batched (lumpy)
+Rời rạc (intermittent)	Intermittent
+Đơn OEM theo lô, rất rời rạc	OEM orders in batches, very intermittent
+Mã mới thay S06 từ 02/2025	New code replacing S06 from 02/2025
+Đang bán	Active
+Mới (07/2025)	New (07/2025)
+Ngừng bán 06/2026	Discontinued 06/2026
+Ngừng (thay bằng S06N)	Discontinued (replaced by S06N)

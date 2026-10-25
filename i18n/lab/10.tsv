@@ -1,0 +1,41 @@
+!	"Giữ (p<0,05)"	"Keep (p<0.05)"
+!	(< 0,15)	(< 0.15)
+!	"Ban_giao_Production_Planning.xlsx"	"Handover_Production_Planning.xlsx"
+!	sheet_name="Chon_mo_hinh"	sheet_name="Model_selection"
+!	sheet_name="Ban_giao_PP"	sheet_name="Handover_PP"
+Capstone workbench — chạy trọn một chu kỳ dự báo tháng	Capstone workbench — run a full monthly forecasting cycle
+Chọn portfolio (P1–P6) hoặc tải dữ liệu của bạn → chọn mô hình ngoài mẫu → điều chỉnh có giả định → Safety Stock → xuất file bàn giao cho Production Planning.	Choose a portfolio (P1–P6) or upload your own data → choose models out of sample → adjust with assumptions → Safety Stock → export the handover file for Production Planning.
+P0 (bài mẫu	P0 (model answer
+Nguồn dữ liệu	Data source
+Portfolio của lớp	Class portfolio
+Dữ liệu của tôi (CSV	My data (CSV
+CSV gồm 3 cột: `month` (YYYY-MM), `series` (tên chuỗi), `demand` (số). Tối thiểu 24 tháng.	The CSV has 3 columns: `month` (YYYY-MM), `series` (series name), `demand` (number). At least 24 months.
+Chỉ tải dữ liệu đã ẩn danh** (đổi tên thành mã, nhân hệ số bí mật) — đúng quy tắc bảo mật của khóa.	Only upload anonymised data** (rename to codes, multiply by a secret factor) — as the course's confidentiality rule requires.
+Tải CSV	Upload CSV
+SES (α=0,1	SES (α=0.1
+Bước 1–2 · Chọn mô hình bằng sai số ngoài mẫu	Steps 1–2 · Choose models by out-of-sample error
+Gợi ý (WMAPE test nhỏ nhất	Suggestion (lowest test WMAPE
+Phương pháp cho	Method for
+Bước 3–4 · Dự báo 12 tháng và điều chỉnh có giả định	Steps 3–4 · 12-month forecast and adjustments with assumptions
+Xem / điều chỉnh chuỗi	View / adjust series
+Phân bổ lại T12–T2 theo Tết 2027	Reallocate Dec–Feb by the 2027 Tết calendar
+Điều chỉnh mức chung (%	Overall level adjustment (%
+Tháng có KM đã duyệt	Months with an approved promotion
+Uplift áp dụng cho tháng KM (%	Uplift applied in promotion months (%
+Phần Tết lịch sử =	Historical Tết portion =
+tháng-thường	normal months
+→ không phân bổ lại.	→ no reallocation.
+— lịch sử, thống kê và đồng thuận	— history, statistical and consensus
+Lịch sử	History
+Thống kê (	Statistical (
+Đồng thuận (sau điều chỉnh	Consensus (after adjustment
+Bước 5–6 · Safety Stock và file bàn giao	Steps 5–6 · Safety Stock and the handover file
+Lead time (tuần) — áp dụng chung nếu không có trong sku_master	Lead time (weeks) — applied to all if missing from sku_master
+Nhu cầu đồng thuận (chưa giới hạn	Consensus demand (unconstrained
+σ sai số	Error σ
+Giả định	Assumption
+Điều chỉnh ở Bước 4 chỉ áp cho chuỗi đang xem; các chuỗi khác dùng số thống kê. Ghi mọi giả định vào Capstone_Template.xlsx (sheet 05).	Adjustments in Step 4 apply only to the series being viewed; other series use the statistical number. Record every assumption in Capstone_Template.xlsx (sheet 05).
+⬇ Tải file bàn giao (Excel	⬇ Download the handover file (Excel
+Số bàn giao là nhu cầu đồng thuận <b>CHƯA giới hạn năng lực</b>, kèm σ và Safety Stock. Module Production Planning sẽ dùng file này để lập MPS/MRP	The handover number is consensus demand <b>NOT YET constrained by capacity</b>, with σ and Safety Stock. The Production Planning module uses this file to build the MPS/MRP
+và trả lời câu hỏi	and answer the question
+làm được bao nhiêu	how much can we make

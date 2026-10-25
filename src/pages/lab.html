@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forecasting Lab · ERX Demand Planning</title>
+<meta name="description" content="Demand Planning &amp; Forecasting in Practice">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>try{var t=localStorage.getItem("erx_theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+
+</head>
+<body>
+<a class="sr-only" href="#main" style="position:absolute;left:-9999px">Bỏ qua điều hướng</a>
+<header class="site-header"><div class="container bar">
+  <a class="brand" href="index.html"><img class="logo-l" src="assets/img/ERX_Logo_color.png" alt="ERX" width="78" height="26"><img class="logo-d" src="assets/img/ERX_Logo_white.png" alt="ERX" width="78" height="26"><span class="sep"></span><span class="course-name">Demand Planning &amp; Forecasting</span></a>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Mở menu" aria-expanded="false">☰ Menu</button>
+  <nav class="nav" id="nav"><a href="lich-hoc.html">Lịch học</a><a href="bai-tap.html">Bài tập</a><a href="tieu-chi-cham.html">Tiêu chí chấm</a><a href="capstone.html">Capstone</a><a href="tien-do.html">Tiến độ</a><a href="tro-choi.html">Trò chơi</a><a href="thu-vien.html">Thư viện</a><a href="so-tay.html">Sổ tay</a><a class="cta" href="lab.html">Forecasting Lab</a><button class="theme-toggle" id="theme-toggle" title="Đổi giao diện sáng/tối" aria-label="Đổi giao diện sáng/tối"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button></nav>
+</div></header>
+<div id="main"><section class="page-head"><div class="container"><div class="kicker">Forecasting Lab</div><h1>Phòng thực hành dự báo tương tác</h1><p class=lead>Kéo thanh trượt, đổi mô hình, xem sai số thay đổi ngay — cùng dữ liệu và công thức với file Excel. Tải CSV của bạn ở trang Buổi 10.</p><div class="chips" style="margin-top:14px"><a class="btn sm primary" data-lab="" href="#">Mở Lab trong tab mới ↗</a></div></div></section><main><div class="container">
+<div class="lab-pages"><button class="btn sm primary" data-lab-switch="">Trang chủ Lab</button><button class="btn sm" data-lab-switch="buoi-1">Buổi 1</button><button class="btn sm" data-lab-switch="buoi-2">Buổi 2</button><button class="btn sm" data-lab-switch="buoi-3">Buổi 3</button><button class="btn sm" data-lab-switch="buoi-4">Buổi 4</button><button class="btn sm" data-lab-switch="buoi-5">Buổi 5</button><button class="btn sm" data-lab-switch="buoi-6">Buổi 6</button><button class="btn sm" data-lab-switch="buoi-7">Buổi 7</button><button class="btn sm" data-lab-switch="buoi-8">Buổi 8</button><button class="btn sm" data-lab-switch="buoi-9">Buổi 9</button><button class="btn sm" data-lab-switch="buoi-10">Buổi 10</button></div>
+<iframe id="lab-frame" class="lab-frame" title="ERX Forecasting Lab" allow="clipboard-write; fullscreen" loading="lazy"></iframe>
+<div id="lab-missing" class="callout warn" style="margin-top:16px"><div class="t">Đang kết nối Lab…</div>
+<p style="margin:0">Nếu khung trên vẫn trống: Lab (ứng dụng Streamlit) chưa được bật cho website này. Giảng viên cần deploy Lab và điền <code>LAB_URL</code> trong <code>config.js</code> — xem hướng dẫn deploy đi kèm bộ tài liệu. Lần mở đầu tiên sau thời gian không dùng, Lab có thể mất 30–60 giây để khởi động.</p></div>
+<p class="small muted" style="margin-top:14px">Mẹo: dữ liệu bạn tải lên Lab chỉ xử lý trong phiên làm việc, không được lưu lại. Không tải dữ liệu thật chưa ẩn danh của công ty.</p>
+</div></main></div>
+<footer class="site-footer"><div class="container row">
+  <div style="display:flex;align-items:center;gap:12px"><img class="logo-l" src="assets/img/ERX_Logo_color.png" alt="ERX" width="66" height="22"><img class="logo-d" src="assets/img/ERX_Logo_white.png" alt="" width="66" height="22"><span>Demand Planning & Forecasting in Practice · Thư Nguyễn · <a href="mailto:thu.minh090997@gmail.com">thu.minh090997@gmail.com</a></span></div>
+  <div><span class="contact-line">Liên hệ giảng viên: <span data-cfg="CONTACT" data-hide-empty=".contact-line"></span> · </span>Dữ liệu tiến độ chỉ lưu trên trình duyệt của bạn.</div>
+</div></footer>
+<script src="config.js"></script><script src="assets/js/site.js" defer></script>
+</body></html>

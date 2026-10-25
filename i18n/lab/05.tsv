@@ -1,0 +1,44 @@
+!	"T12+T1+T2"	"Dec+Jan+Feb"
+!	"T12"	"Dec"
+!	"T1"	"Jan"
+!	"T2"	"Feb"
+!	: T12/2026–T2/2027"	: Dec 2026–Feb 2027"
+Mùa vụ & hiệu ứng Tết âm lịch	Seasonality & the Lunar New Year (Tết) effect
+Chỉ số mùa vụ, Holt-Winters cộng/nhân, và công cụ phân bổ lại nhu cầu khi Tết rơi vào tháng khác năm trước.	Seasonal indices, additive/multiplicative Holt-Winters, and a tool to reallocate demand when Tết falls in a different month from last year.
+Chỉ số mùa vụ & phân rã	Seasonal indices & decomposition
+Tết dịch tháng	Tết moving month
+Loại sự kiện một lần trước khi tính	Exclude one-off events before computing
+Dùng cột demand_ex_event (ví dụ S01|GT 06/2024	Uses the demand_ex_event column (e.g. S01|GT 06/2024
+Thực tế và trung bình trượt trung tâm 2×12	Actuals and the 2×12 centred moving average
+Chỉ số mùa vụ (TB = 1	Seasonal index (mean = 1
+Thực tế	Actual
+CMA 2×12 (xu hướng-chu kỳ	CMA 2×12 (trend-cycle
+Chỉ số	Index
+Biên độ mùa vụ (max/min): **	Seasonal amplitude (max/min): **
+Biên độ mùa vụ phình theo mức bán (mùa hè B01) → mùa vụ <b>nhân</b>. Biên độ gần như không đổi → <b>cộng</b>.	Seasonal amplitude that swells with the sales level (B01's summer) → <b>multiplicative</b> seasonality. Amplitude roughly constant → <b>additive</b>.
+Bật/tắt nút loại sự kiện với S01|GT để thấy một tin đồn tháng 6/2024 có thể	Toggle the event-exclusion switch for S01|GT to see how a June 2024 rumour can
+tạo ra	create
+một mùa vụ giả.	a fake seasonality.
+HW nhân (khớp	Multiplicative HW (fit
+HW nhân	Multiplicative HW
+HW cộng	Additive HW
+Phương pháp	Method
+Tham số HW nhân:	Multiplicative HW parameters: 
+Excel 365: <code>FORECAST.ETS</code> là Holt-Winters tự động (Microsoft dùng biến thể AAA). Hiểu cách nó cập nhật L, T, S giúp	Excel 365: <code>FORECAST.ETS</code> is automatic Holt-Winters (Microsoft uses the AAA variant). Understanding how it updates L, T, S helps
+bạn giải thích con số phần mềm đưa ra thay vì chỉ chép lại.	you explain the software's number instead of just copying it.
+Ý tưởng:** cửa sổ mua sắm Tết ≈ 35 ngày trước Tết. Năm nào Tết sớm, phần lớn cửa sổ rơi vào tháng 12–1; Tết muộn thì sang tháng 2.	Idea:** the Tết shopping window ≈ 35 days before Tết. When Tết is early, most of the window falls in December–January; when it is late it moves into February.
+Năm	Year
+Ngày Tết	Tết date
+Chuỗi nhạy Tết	Tết-sensitive series
+Tăng trưởng mức thường 2027 so với 2026	Growth of the normal level, 2027 vs 2026
+Mức sụt cho phần ngày sau Tết	Dip applied to post-Tết days
+Mức thường	Normal level
+Phần Tết (tháng-thường	Tết portion (normal months
+Cùng kỳ năm trước × (1+g	Same period last year × (1+g
+Theo lịch Tết 2027	By the 2027 Tết calendar
+Chênh lệch (lịch Tết − cùng kỳ):	Difference (Tết calendar − same period): 
+Phần Tết trung bình = <b>	Average Tết portion = <b>
+</b> tháng-thường. Công thức: Dự báo = Mức thường × (1 + R × tỷ trọng trước Tết) × (1 − sụt × tỷ trọng sau Tết).	</b> normal months. Formula: Forecast = Normal level × (1 + R × pre-Tết share) × (1 − dip × post-Tết share).
+Tình huống thảo luận:	Discussion case: 
+Tết sớm 3 tuần, Sales báo tháng 1 gấp đôi	Tết is 3 weeks early, Sales says January will double
+— số liệu ủng hộ đến đâu?	— how far do the numbers support it?

@@ -1,0 +1,75 @@
+!	, 1)} tr	, 1)}m
+Hộp quà Tết Phúc Lộc	Phúc Lộc Tết gift box
+Giỏ quà Tết An Khang	An Khang Tết gift basket
+Hộp bánh Xuân Sum Vầy	Xuân Sum Vầy biscuit box
+Set gia vị Tết Đoàn Viên	Đoàn Viên Tết seasoning set
+Hộp quà Tết cao cấp Hưng Thịnh	Hưng Thịnh premium Tết gift box
+Hộp kẹo Tết Như Ý	Như Ý Tết candy box
+Combo nước giải khát Tết	Tết soft-drink combo
+Hộp quà doanh nghiệp Vạn Phúc	Vạn Phúc corporate gift box
+Bài toán Newsvendor · sản xuất hàng Tết	The Newsvendor problem · producing Tết goods
+Bạn phụ trách	You are in charge of
+sản phẩm quà Tết. Mỗi sản phẩm chỉ được sản xuất	Tết gift products. Each product can be produced only
+một lần	once
+trước mùa. Thiếu hàng: mất lãi gộp. Dư hàng: phải thanh lý dưới giá vốn sau Tết. Bạn có dự báo nhu cầu (trung bình và độ lệch chuẩn) — hãy chọn số lượng sản xuất.	before the season. Too little: lost gross margin. Too much: cleared below cost after Tết. You have a demand forecast (mean and standard deviation) — choose the production quantity.
+Bắt đầu	Start
+Kỷ lục	Record
+% lợi nhuận so với chiến lược tối ưu	% of the optimal strategy's profit
+Kiến thức cần nhớ (Lecture Notes Chương 11	Key ideas (Lecture Notes Chapter 11
+Chi phí thiếu một thùng: c	Shortage cost per box: c
+giá bán − giá vốn. Chi phí dư một thùng: c	price − unit cost. Excess cost per box: c
+giá vốn − giá thanh lý.	unit cost − clearance price.
+Tỷ lệ tới hạn CR = c	Critical ratio CR = c
+. Lượng tối ưu Q* là phân vị CR của phân phối nhu cầu: Q* = μ + z	. The optimal quantity Q* is the CR quantile of the demand distribution: Q* = μ + z
+·σ.	·σ.
+CR &gt; 50% → làm nhiều hơn trung bình; CR &lt; 50% → làm ít hơn trung bình.	CR &gt; 50% → make more than the mean; CR &lt; 50% → make less than the mean.
+Dự báo nhu cầu	Demand forecast
+1 độ lệch chuẩn	1 standard deviation
+Giá bán	Price
+nghìn đ/hộp	VND thousand/box
+Giá vốn	Unit cost
+Thanh lý sau Tết	Post-Tết clearance
+Số hộp sản xuất	Boxes to produce
+Chốt sản xuất	Lock in production
+Tính giúp chi phí thiếu / dư	Work out shortage / excess cost
+Lợi nhuận kỳ vọng theo số lượng sản xuất (sản phẩm vừa rồi	Expected profit by production quantity (previous product
+Lợi nhuận tích lũy	Cumulative profit
+Chiến lược Q* (cùng nhu cầu thực tế	Q* strategy (same actual demand
+50%: nên làm nhiều hơn dự báo trung bình.	50%: make more than the mean forecast.
+50%: nên làm ít hơn dự báo trung bình.	50%: make less than the mean forecast.
+Phần tính Q* để bạn tự làm: z của CR tra bảng chuẩn hoặc =NORM.S.INV(CR) trong Excel.	Working out Q* is left to you: look up z for the CR in a normal table or use =NORM.S.INV(CR) in Excel.
+nhu cầu thực tế	actual demand
+. Bạn làm	. You made
+→ lợi nhuận	→ profit
+Lợi nhuận	Your
+kỳ vọng	expected
+của bạn đạt	profit reached
+so với Q* —	of Q*'s —
+quyết định tốt, dù kết quả thực tế còn phụ thuộc may rủi.	a good decision, even though the actual result still depends on luck.
+khoảng cách đến từ quyết định, không chỉ do may rủi.	the gap comes from the decision, not just from luck.
+Lợi nhuận kỳ vọng (tr đ	Expected profit (VND m
+Q* tối ưu	Optimal Q*
+Lựa chọn của bạn	Your choice
+Lợi nhuận kỳ vọng	Expected profit
+Tổng kết mùa Tết	Tết season summary
+Lợi nhuận thực tế	Actual profit
+Chiến lược Q*	Q* strategy
+Chất lượng quyết định	Decision quality
+kỷ lục mới	new record
+kỷ lục	record
+Sản phẩm	Product
+Dự báo μ	Forecast μ
+Bạn làm	You made
+Thực tế	Actual
+Lợi nhuận (tr	Profit (VND m
+“Chất lượng quyết định” so sánh lợi nhuận	“Decision quality” compares your
+của bạn với Q* — loại bỏ yếu tố may rủi của nhu cầu thực tế.	profit with Q*'s — removing the luck of actual demand.
+Có	On
+sản phẩm bạn đi	products you went
+ngược hướng	against
+tỷ lệ tới hạn (CR	the critical ratio (CR
+50% mà làm ít hơn trung bình, hoặc ngược lại).	50% but you made less than the mean, or vice versa).
+Bạn luôn đi đúng hướng của tỷ lệ tới hạn.	You always followed the direction of the critical ratio.
+Nghiên cứu (Schweitzer &amp; Cachon, 2000) cho thấy người ra quyết định thường chọn quá gần trung bình — “kéo về trung tâm”.	Research (Schweitzer &amp; Cachon, 2000) shows decision makers tend to choose too close to the mean — “pull-to-centre”.
+Chơi mùa mới	Play a new season
+Về Buổi 9	Back to Session 9

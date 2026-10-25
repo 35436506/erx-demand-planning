@@ -1,0 +1,91 @@
+!	≤ 0,15 · 	≤ 0.15 · 
+!	 0,15–0,35 · 	 0.15–0.35 · 
+Ô AX (giá trị cao, nhu cầu ổn định) — cách làm phù hợp nhất	Cell AX (high value, stable demand) — the most suitable approach
+Planner rà soát từng mã mỗi tuần, chỉnh tay theo cảm nhận	The planner reviews every item weekly and adjusts by feel
+Dự báo thống kê tự động, rà soát theo ngoại lệ (Tracking Signal	Automated statistical forecast, review by exception (Tracking Signal
+Không dự báo, sản xuất theo đơn	No forecast, make to order
+Dùng Croston	Use Croston
+AX chiếm phần lớn giá trị nhưng dễ dự báo: tự động hóa tốt nhóm này giải phóng thời gian cho ngoại lệ.	AX holds most of the value but is easy to forecast: automating this group well frees up time for exceptions.
+Ô AY (giá trị cao, biến động vừa) — nơi planner nên dành nhiều thời gian nhất vì…	Cell AY (high value, moderate variability) — where the planner should spend the most time because…
+Thống kê kết hợp thông tin kinh doanh và rà soát tại Demand Review hằng tháng	Statistics combined with business information and reviewed at the monthly Demand Review
+Chỉ cần Naive	Naive is enough
+Đặt mức phục vụ 85% để giảm tồn kho	Set an 85% service level to cut inventory
+Chuyển sang sản xuất theo đơn	Switch to make to order
+Giá trị lớn và có thông tin khuyến mãi/sự kiện — nơi FVA của con người có thể dương.	High value plus promotion/event information — where human FVA can be positive.
+Ô CZ (giá trị thấp, rất biến động/gián đoạn như H02, H03) — chính sách hợp lý	Cell CZ (low value, highly variable/intermittent like H02, H03) — a sensible policy
+Holt-Winters nhân, rà soát hằng tuần	Multiplicative Holt-Winters, reviewed weekly
+Croston/SBA hoặc sản xuất theo đơn, tồn tối thiểu, rà soát hằng quý; xem xét cắt mã	Croston/SBA or make to order, minimal stock, quarterly review; consider delisting
+Mức phục vụ 99%	A 99% service level
+Dồn hết thời gian planner vào nhóm này	Put all the planner's time into this group
+Giá trị thấp, khó dự báo: đừng để nhóm này ngốn thời gian; dùng phương pháp cho nhu cầu gián đoạn hoặc MTO.	Low value, hard to forecast: don't let this group eat your time; use intermittent-demand methods or MTO.
+B01 (nước giải khát mùa hè) có CV thô cao nhưng CV đã khử mùa vụ thấp. Nên xếp XYZ theo…	B01 (a summer drink) has a high raw CV but a low deseasonalised CV. XYZ should be classified by…
+CV thô — vì biến động là biến động	Raw CV — variability is variability
+CV đã khử mùa vụ — vì mùa vụ là phần dự báo được	Deseasonalised CV — because seasonality is the forecastable part
+Không cần XYZ cho hàng mùa vụ	Seasonal items don't need XYZ
+Theo cảm nhận của Sales	Sales' gut feeling
+Mùa vụ là thông tin dự báo được; dùng CV thô sẽ xếp nhầm hàng mùa vụ vào nhóm	Seasonality is forecastable information; using raw CV wrongly puts seasonal items in the group
+khó	hard
+Mức phục vụ mục tiêu nên khác nhau giữa các ô vì…	Target service levels should differ between cells because…
+Để công bằng giữa các planner	To be fair between planners
+Vốn tồn kho nên tập trung vào nơi tạo giá trị và chi phí thiếu hàng cao; đặt 99% cho mọi mã sẽ dồn vốn vào nhóm C	Inventory capital should go where value and shortage costs are high; 99% for every item piles capital into group C
+Phần mềm bắt buộc	The software requires it
+Không nên khác nhau	They shouldn't differ
+Mức phục vụ theo phân khúc là đánh đổi giữa chi phí thiếu hàng và vốn tồn kho (Chương 9, 18).	Segmented service levels are a trade-off between shortage cost and inventory capital (Chapters 9, 18).
+Vòng 1/3 · Xếp nhóm ABC theo giá trị 12 tháng	Round 1/3 · Classify ABC by 12-month value
+Quy tắc khóa học: sắp giá trị giảm dần	Course rule: sort by value, descending
+các mã tạo 80% giá trị lũy kế đầu tiên	the items making up the first 80% of cumulative value
+tới 95%, còn lại là	up to 95%, the rest are
+. Mã có lũy kế	. An item whose cumulative share
+trước nó	before it
+dưới 80% thuộc A.	is below 80% belongs to A.
+Hiện cột lũy kế (trợ giúp	Show the cumulative column (help
+Mã	Code
+Tên	Name
+Giá trị (tr.đ	Value (VND m
+Tỷ trọng	Share
+Lũy kế	Cumulative
+Nhóm	Group
+Chấm vòng 1	Check round 1
+Còn	Left to sort:
+mã chưa xếp	items
+Đã xếp đủ	All sorted
+Hãy xếp đủ 23 mã trước khi chấm.	Sort all 23 items before checking.
+đúng.	correct.
+Đáp án	Answer
+mã A	A items
+mã B	B items
+mã C. Chỉ	C items. Only
+mã A đã tạo khoảng 80% giá trị — đó là nơi đáng đầu tư thời gian và mức phục vụ cao.	A items already make up about 80% of the value — that is where time and high service levels are worth investing.
+Sang vòng 2	On to round 2
+Vòng 2/3 · Xếp nhóm XYZ theo độ biến động	Round 2/3 · Classify XYZ by variability
+Ngưỡng của khóa học (dữ liệu tháng	Course thresholds (monthly data
+gt; 0,35. Cẩn thận: dùng đúng loại CV!	gt; 0.35. Careful: use the right kind of CV!
+CV thô	Raw CV
+CV đã khử mùa vụ	Deseasonalised CV
+Chấm vòng 2	Check round 2
+Hãy xếp đủ 10 mã.	Sort all 10 items.
+CV thô xếp	Raw CV gives
+nhưng mùa vụ dự báo được →	but the seasonality is forecastable →
+/10 đúng.	/10 correct.
+Bạn rơi vào bẫy CV thô ở	You fell into the raw-CV trap on
+mã — hàng mùa vụ bị xếp nhầm vào nhóm “khó”.	items — seasonal items were wrongly put in the “hard” group.
+Bạn đã tránh được bẫy CV thô.	You avoided the raw-CV trap.
+XYZ nên đo trên chuỗi đã khử mùa vụ (hoặc trên sai số dự báo).	XYZ should be measured on the deseasonalised series (or on the forecast error).
+Sang vòng 3	On to round 3
+Vòng 3/3 · Chính sách cho từng ô	Round 3/3 · A policy for each cell
+Xem tổng kết	See the summary
+Đúng.	Correct.
+Chưa đúng.	Not quite.
+Tổng kết	Summary
+Chính sách	Policy
+Tổng	Total
+kỷ lục mới	new record
+kỷ lục	record
+Ma trận ABC × XYZ của MBF (CV đã khử mùa vụ	MBF's ABC × XYZ matrix (deseasonalised CV
+X · ổn định	X · stable
+Y · biến động vừa	Y · moderately variable
+Z · rất biến động	Z · highly variable
+So với slide Buổi 7 và Lecture Notes mục 7.2 — chính sách gợi ý cho từng ô.	Compare with the Session 7 slides and Lecture Notes section 7.2 — the suggested policy for each cell.
+Chơi lại	Play again
+Về Buổi 7	Back to Session 7
+Không tải được dữ liệu trò chơi.	Could not load the game data.

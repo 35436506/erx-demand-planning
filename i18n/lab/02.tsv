@@ -1,0 +1,59 @@
+Hiểu và làm sạch dữ liệu nhu cầu	Understanding and cleaning demand data
+Doanh số ≠ xuất kho ≠ đơn hàng ≠ nhu cầu. Trang này chạy đúng quy trình làm sạch của lớp và in nhật ký điều chỉnh cho từng chuỗi.	Sales ≠ shipments ≠ orders ≠ demand. This page runs the class's exact cleaning procedure and prints the adjustment log for each series.
+Đẩy hàng cuối quý + hết hàng (có sell-out DMS	Quarter-end loading + stock-outs (DMS sell-out available
+Lỗi đơn vị tính	Unit-of-measure error
+Hết hàng, GT không ghi đơn bị từ chối	Stock-outs; GT doesn't record refused orders
+Hết hàng, MT có PO	Stock-outs; MT has POs
+Đổi mã S06 → S06N	Code change S06 → S06N
+Thiếu dữ liệu	Missing data
+Sự kiện thật (tin đồn tăng giá	A real event (price-rise rumour
+Hàng trả về sau Tết	Post-Tết returns
+Sản phẩm mới (lấp đầy kênh	New product (channel fill
+Chọn chuỗi (gợi ý các ca có vấn đề	Choose a series (suggested problem cases
+Vấn đề cài sẵn:**	Built-in problem:**
+số ghi nhận vs nhu cầu đã làm sạch	recorded numbers vs cleaned demand
+Xuất kho (ghi nhận	Shipments (recorded
+Đơn hàng (PO	Orders (PO
+Nhu cầu ước tính	Estimated demand
+Hàng trả về	Returns
+Tháng đã điều chỉnh	Adjusted months
+#### Nhật ký điều chỉnh	#### Adjustment log
+Chuỗi	Series
+Tháng	Month
+Số gốc	Original
+Số mới	Adjusted
+Quy tắc	Rule
+Lý do	Reason
+Bằng chứng	Evidence
+trống	blank
+Chuỗi này không cần điều chỉnh theo các quy tắc chuẩn.	This series needs no adjustment under the standard rules.
+#### Phát hiện bất thường	#### Anomaly detection
+Hệ số IQR (k	IQR multiplier (k
+Ngưỡng IQR: **	IQR thresholds: **
+** → gắn cờ:	** → flagged:
+không có	none
+Cờ MAD (robust, k=3,5	MAD flags (robust, k=3.5
+Cờ ≠ lỗi. Câu hỏi đầu tiên luôn là <i>	A flag ≠ an error. The first question is always <i>
+chuyện gì đã xảy ra?	what actually happened?
+</i> — hỏi kho, Sales, IT.	</i> — ask the warehouse, Sales, IT.
+Lỗi dữ liệu thì sửa; sự kiện thật thì <b>giữ</b> ở cột nhu cầu, nhưng loại khỏi baseline khi tính mùa vụ.	Fix data errors; <b>keep</b> real events in the demand column, but exclude them from the baseline when computing seasonality.
+#### Cây quyết định: tháng bán 0 (hoặc rất thấp) — vì sao?	#### Decision tree: a month with zero (or very low) sales — why?
+Tồn kho = 0 / có ngày hết hàng	Stock = 0 / stock-out days recorded
+Đứt hàng	Stock-out
+Phục hồi nhu cầu (PO hoặc quy đổi theo ngày có hàng	Restore demand (PO, or scale up by in-stock days
+Mã mới xuất hiện cùng lúc mã cũ biến mất	A new code appears as the old code disappears
+Đổi mã	Code change
+Nối lịch sử theo planning_item	Join history by planning_item
+Trạng thái	Status
+ngừng bán	discontinued
+trong sku_master	in sku_master
+Ngừng bán	Discontinued
+Không dự báo tiếp; chuyển nhu cầu sang mã thay thế nếu có	Stop forecasting; transfer demand to the replacement code if there is one
+Ô trống / lỗi truyền dữ liệu	Blank cell / data transfer error
+Nội suy, đánh dấu là ước tính	Interpolate, mark as an estimate
+Mã B2B/HoReCa, nhiều tháng 0 xen kẽ	B2B/HoReCa item, many zero months in between
+Nhu cầu rời rạc thật	Genuinely intermittent demand
+Giữ nguyên 0; dùng Croston/SBA (Buổi 7	Keep the zeros; use Croston/SBA (Session 7
+Dấu hiệu	Signal
+Chẩn đoán	Diagnosis
+Xử lý	Action

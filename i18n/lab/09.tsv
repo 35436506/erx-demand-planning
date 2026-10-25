@@ -1,0 +1,52 @@
+Từ dự báo đến tồn kho, cảnh báo sớm và S&OP	From forecast to inventory, early warning and S&OP
+Sai số dự báo biến thành tồn kho an toàn; tốc độ bán trong tháng biến thành cảnh báo sớm; nhu cầu chưa giới hạn gặp năng lực trong S&OP.	Forecast error becomes safety stock; the in-month sales rate becomes an early warning; unconstrained demand meets capacity in S&OP.
+Cảnh báo sớm trong tháng	In-month early warning
+Hạn sử dụng (FEFO	Shelf life (FEFO
+Năng lực & Volume→Value	Capacity & Volume→Value
+Phương pháp dự báo	Forecasting method
+Mức phục vụ	Service level
+Lead time (tuần	Lead time (weeks
+σ sai số (ngoài mẫu	Error σ (out of sample
+SD nhu cầu 12T	12-month demand SD
+Safety Stock (σ sai số	Safety Stock (error σ
+SS nếu dùng SD nhu cầu	SS if demand SD is used
+Mức phục vụ ↔ vốn tồn kho an toàn	Service level ↔ safety-stock capital
+Vốn SS (triệu đ	SS capital (VND million
+Vốn SS	SS capital
+Mức phục vụ mục tiêu (%	Target service level (%
+SS = z × σ × √L. σ phải là sai số dự báo NGOÀI MẪU — phần kho thực sự phải đỡ. Dùng SD nhu cầu (gồm cả mùa vụ đã dự báo được)	SS = z × σ × √L. σ must be the OUT-OF-SAMPLE forecast error — the part the stock really has to absorb. Using the demand SD (which includes forecastable seasonality)
+làm SS phình to, đặc biệt với hàng mùa vụ như B01. Mức phục vụ là quyết định kinh doanh (S&OP), không phải con số mặc định.	inflates SS, especially for seasonal items like B01. The service level is a business decision (S&OP), not a default number.
+Đã qua bao nhiêu ngày của tháng 10	Days of October elapsed
+Dữ liệu thực tế có đến ngày 14	Actual data is available up to day 14
+Ngưỡng cảnh báo ±	Alert threshold ±
+Đồng thuận T10	October consensus
+Bán đến nay	Sold to date
+Tỷ lệ	Ratio
+Ước cả tháng	Full-month projection
+Cảnh báo	Alert
+Tỷ lệ tốc độ bán / kỳ vọng	Sales rate / expected ratio
+Bình thường	Normal
+Cảnh báo sớm không phải để sửa forecast ngay mà để <b>hỏi</b> trong 24 giờ: thời tiết? đối thủ? khuyến mãi chưa báo? → rồi quyết định	An early warning is not for changing the forecast straight away but for <b>asking</b> within 24 hours: weather? competitors? an unannounced promotion? → then decide
+điều chuyển kênh, đổi lệnh sản xuất, hay cập nhật forecast tháng sau. Mã nhỏ dao động ngẫu nhiên nhiều — đặt ngưỡng theo nhóm ABC.	whether to move stock between channels, change production orders or update next month's forecast. Small items fluctuate randomly a lot — set thresholds by ABC group.
+Kênh MT chỉ nhận hàng còn ≥ … hạn dùng	MT only accepts goods with ≥ … shelf life remaining
+Giá trị (tr.đ	Value (VND m
+Giá trị tồn có rủi ro	Value of stock at risk
+CẢNH BÁO	ALERT
+triệu đ	VND million
+Lô	Batch
+Số lượng	Quantity
+Ngày còn lại	Days remaining
+Ngày bán hết (lũy kế	Days to sell through (cumulative
+Ngày còn bán được	Sellable days left
+Rủi ro	Risk
+Dây chuyền	Production line
+nhu cầu chưa giới hạn (thống kê) vs năng lực	unconstrained demand (statistical) vs capacity
+Năng lực thường	Regular capacity
+Tăng ca	Overtime
+Nhu cầu chưa giới hạn	Unconstrained demand
+Nhu cầu	Demand
+Năng lực tối đa	Maximum capacity
+Thiếu (+)/dư (−	Short (+)/surplus (−
+Doanh thu có rủi ro nếu không xử lý phần thiếu (giá	Revenue at risk if the shortfall isn't handled (price of
+Chu kỳ S&OP 5 bước: thu thập dữ liệu → Demand Review → <b>Supply Review</b> (cửa sang Production Planning) → Pre-S&OP (phương án & đánh đổi)	The 5-step S&OP cycle: data gathering → Demand Review → <b>Supply Review</b> (the gateway to Production Planning) → Pre-S&OP (options & trade-offs)
+→ Executive S&OP (quyết định). Báo cáo luôn tách <b>nhu cầu chưa giới hạn</b> và <b>kế hoạch đã giới hạn</b>.	→ Executive S&OP (decisions). Reports always separate <b>unconstrained demand</b> from the <b>constrained plan</b>.

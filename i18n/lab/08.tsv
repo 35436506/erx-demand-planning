@@ -1,0 +1,30 @@
+Mỗi bước chỉnh số (Sales, đồng thuận) có làm dự báo tốt lên không? Đo bằng FVA trên 460 dự báo lag-1 thật của case (10/2025–09/2026).	Does each adjustment step (Sales, consensus) make the forecast better? Measured with FVA on the case's 460 real lag-1 forecasts (10/2025–09/2026).
+FVA thác nước	FVA waterfall
+Mô phỏng quy tắc chỉnh số	Simulating an adjustment rule
+Phạm vi	Scope
+Tất cả	All
+Tháng CÓ khuyến mãi	Months WITH promotions
+Tháng KHÔNG khuyến mãi	Months WITHOUT promotions
+Tháng CÓ	Months WITH
+Lọc kênh	Filter channels
+Thống kê	Statistical
+Đồng thuận	Consensus
+WMAPE từng bước —	WMAPE by step —
+dự báo	forecasts
+Bước	Step
+FVA so bước trước (điểm %	FVA vs previous step (% points
+So với	Compared with
+Đọc cùng nhau: (1) thống kê có thắng Naive? (2) số Sales có bias dương (lạc quan) không? (3) ở tháng CÓ khuyến mãi bước đồng thuận	Read them together: (1) does the statistical forecast beat Naive? (2) is the Sales number positively biased (optimistic)? (3) in months WITH promotions the consensus step
+thêm nhiều giá trị — vì có thông tin thật; ở tháng KHÔNG khuyến mãi chỉnh tay thường làm xấu đi. → Quy tắc: chỉ chỉnh khi có thông tin mới, ghi lý do, đo lại.	adds a lot of value — because there is real information; in months WITHOUT promotions manual adjustments usually make things worse. → Rule: adjust only with new information, record the reason, measure again.
+Chuỗi	Series
+Ngưỡng cảnh báo |TS|	Alert threshold |TS|
+TS = tổng sai số cộng dồn / MAD. TS âm dần = dự báo liên tục CAO hơn thực tế. Vượt ngưỡng → mở cuộc điều tra: nguồn lạc quan ở đâu,	TS = cumulative sum of errors / MAD. A TS drifting negative = the forecast is persistently HIGHER than actuals. Beyond the threshold → investigate: where does the optimism come from,
+mô hình có bỏ sót xu hướng không?	has the model missed a trend?
+Giả sử công ty áp dụng quy tắc: **chỉ chấp nhận điều chỉnh của Sales khi có khuyến mãi**, các tháng khác giữ số thống kê. Kết quả sẽ ra sao?	Suppose the company adopts the rule: **accept Sales adjustments only when there is a promotion**, and keep the statistical number in other months. What would happen?
+Ở tháng khuyến mãi, lấy bao nhiêu % phần chênh Sales − Thống kê	In promotion months, take what % of the Sales − Statistical gap
+Phiên bản	Version
+Đồng thuận (thực tế đã làm	Consensus (what was actually done
+Quy tắc mô phỏng (	Simulated rule (
+Đây là	This is an
+thí nghiệm	experiment
+trên dữ liệu quá khứ — kết luận dùng để đề xuất quy tắc cho Demand Review, rồi phải theo dõi FVA vài tháng mới chốt.	on past data — use the conclusion to propose a rule for the Demand Review, then track FVA for a few months before locking it in.

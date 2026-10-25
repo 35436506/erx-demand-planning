@@ -1,0 +1,46 @@
+Chọn mô hình theo nhóm sản phẩm	Choosing models by product group
+Lập chính sách cho CẢ danh mục: ABC-XYZ, hình dạng nhu cầu, Croston cho mã rời rạc,	Set policy for the WHOLE portfolio: ABC-XYZ, demand shapes, Croston for intermittent items,
+ngoài mẫu — và một mở rộng học thuật với SARIMA.	out of sample — and an academic extension with SARIMA.
+Croston / SBA / TSB (rời rạc	Croston / SBA / TSB (intermittent
+Ma trận ABC × XYZ	ABC × XYZ matrix
+Bản đồ hình dạng & Croston	Shape map & Croston
+Best-fit trong vs ngoài mẫu	Best fit in vs out of sample
+Mở rộng: SARIMA	Extension: SARIMA
+Ngưỡng A (lũy kế	Threshold A (cumulative
+Ngưỡng B (lũy kế	Threshold B (cumulative
+Ngưỡng X (CV ≤	Threshold X (CV ≤
+Ngưỡng Y (CV ≤	Threshold Y (CV ≤
+Số SKU (XYZ sau khử mùa vụ	Number of SKUs (XYZ after deseasonalising
+Giá trị 12T (tr.đ	12-month value (VND m
+CV thô	Raw CV
+XYZ thô	Raw XYZ
+CV khử MV	Deseasonalised CV
+XYZ khử MV	Deseasonalised XYZ
+K02 và B01 có CV thô cao vì MÙA VỤ, không phải vì khó dự báo — sau khử mùa vụ chúng sang nhóm dễ hơn.	K02 and B01 have a high raw CV because of SEASONALITY, not because they are hard to forecast — once deseasonalised they move to an easier group.
+Câu hỏi cho phần mềm APS: phân nhóm XYZ dựa trên CV thô hay CV của sai số dự báo?	A question for the APS software: is the XYZ grouping based on raw CV or on the CV of the forecast error?
+ADI (tháng	ADI (months
+CV² cỡ đơn	CV² of order size
+Syntetos–Boylan: smooth · erratic · intermittent · lumpy (SKU × kênh, 12 tháng	Syntetos–Boylan: smooth · erratic · intermittent · lumpy (SKU × channel, 12 months
+Chuỗi rời rạc	Intermittent series
+dự báo 1 bước	1-step forecast
+TB dự báo	Mean forecast
+TB thực tế	Mean actual
+Croston dự báo <i>tốc độ nhu cầu trung bình</i>, không dự báo tháng nào có đơn. Croston gốc thiên lệch cao → SBA nhân (1 − α/2).	Croston forecasts the <i>average demand rate</i>, not which month will have an order. Classic Croston is biased high → SBA multiplies by (1 − α/2).
+TSB hạ dự báo dần khi lâu không có đơn — hợp với mã sắp lỗi thời. K04 (giỏ quà Tết) rời rạc NHƯNG theo mùa: Croston bỏ qua mùa vụ!	TSB lowers the forecast gradually when no orders arrive — suited to items going obsolete. K04 (Tết gift basket) is intermittent BUT seasonal: Croston ignores seasonality!
+Phần mềm APS thường chọn	APS software usually picks the
+theo sai số trong mẫu. Bảng dưới so lựa chọn đó với lựa chọn theo 6 tháng test.	on in-sample error. The table below compares that choice with the choice based on 6 test months.
+Holt-Winters nhân	Multiplicative Holt-Winters
+Chuỗi	Series
+Best-fit TRONG mẫu	IN-sample best fit
+WMAPE trong mẫu	In-sample WMAPE
+→ WMAPE test của nó	→ its test WMAPE
+Best-fit NGOÀI mẫu	OUT-of-sample best fit
+Khi phần mềm báo	When the software reports a
+, hãy hỏi: (1) chọn theo sai số trong hay ngoài mẫu? (2) ở horizon/lag nào? (3) có so với Naive không?	, ask: (1) was it chosen on in-sample or out-of-sample error? (2) at which horizon/lag? (3) was it compared with Naive?
+4) bao lâu chọn lại mô hình một lần — chọn lại mỗi tháng dễ làm forecast	4) how often is the model re-selected — re-selecting every month easily makes the forecast
+nhảy	jump
+nervousness).	nervousness).
+Mở rộng học thuật — ARIMA mùa vụ (SARIMA) trên log(nhu cầu), chọn bậc bằng AIC **chỉ trên train**, so với Holt-Winters.	Academic extension — seasonal ARIMA (SARIMA) on log(demand), orders chosen by AIC **on train only**, compared with Holt-Winters.
+Chạy lưới SARIMA (≈ 10–20 giây	Run the SARIMA grid (≈ 10–20 seconds
+Với 30 tháng dữ liệu, mô hình nhiều tham số hơn không tự động thắng (bài học của các cuộc thi M-Competitions).	With 30 months of data, a model with more parameters doesn't automatically win (the lesson of the M-Competitions).
+Bẫy rò rỉ dữ liệu: chọn bậc ARIMA bằng AIC trên TOÀN BỘ dữ liệu rồi mới chia test.	The data-leakage trap: choosing the ARIMA orders by AIC on ALL the data and only then splitting off the test set.

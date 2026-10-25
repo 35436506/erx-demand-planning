@@ -1,0 +1,117 @@
+!	(thư viện <code>dpkit</code>)	(the <code>dpkit</code> library)
+Trang chủ	Home
+Buổi 1 · Phân cấp dự báo	Session 1 · Forecasting hierarchy
+Buổi 2 · Làm sạch dữ liệu	Session 2 · Data cleaning
+Buổi 3 · Mốc & sai số	Session 3 · Benchmarks & error
+Buổi 4 · San bằng mũ	Session 4 · Exponential smoothing
+Buổi 5 · Mùa vụ & Tết	Session 5 · Seasonality & Tết
+Buổi 6 · Hồi quy & khuyến mãi	Session 6 · Regression & promotions
+Buổi 7 · Danh mục & Croston	Session 7 · Portfolio & Croston
+Buổi 8 · Demand Review & FVA	Session 8 · Demand Review & FVA
+Buổi 9 · Tồn kho & S&OP	Session 9 · Inventory & S&OP
+Buổi 10 · Capstone	Session 10 · Capstone
+Dự báo để làm gì & phân cấp	Why forecast & the forecasting hierarchy
+Hiểu và làm sạch dữ liệu	Understanding and cleaning data
+Dự báo đầu tiên & đo sai số	First forecast & measuring error
+Exponential Smoothing & cuốn chiếu	Exponential Smoothing & rolling forecasts
+Mùa vụ & hiệu ứng Tết	Seasonality & the Tết effect
+Hồi quy, giá & khuyến mãi	Regression, price & promotions
+Chọn mô hình theo danh mục	Choosing models by portfolio
+Tồn kho, cảnh báo sớm & S&OP	Inventory, early warning & S&OP
+Dữ liệu: Mekong Bloom Foods (công ty giả định	Data: Mekong Bloom Foods (a fictional company
+Giảng viên: Thư Nguyễn · thu.minh090997@gmail.com	Instructor: Thư Nguyễn · thu.minh090997@gmail.com
+chai PET – mã cũ	PET bottle – old code
+Chọn chuỗi SKU × kênh	Choose an SKU × channel series
+Phòng thực hành trực quan đi kèm khóa	The interactive practice room that accompanies the
+của ERX.	course by ERX.
+Mỗi trang ứng với một buổi học, dùng	Each page matches one session and uses
+đúng công thức	exactly the same formulas
+trong slide và file Excel (thư viện	as the slides and Excel files (the
+trên cùng bộ dữ liệu case Mekong Bloom Foods (công ty giả định).	on the same Mekong Bloom Foods case data (a fictional company).
+SKU (hàng kế hoạch	SKUs (planning items
+Chuỗi SKU × kênh	SKU × channel series
+Lịch sử	History
+36 tháng	36 months
+Kỳ cần dự báo	Forecast horizon
+12 tháng	12 months
+Bản đồ khóa học	Course map
+Nền tảng	Foundations
+Kỹ thuật cốt lõi	Core techniques
+Quy trình & quyết định	Process & decisions
+CV theo cấp · trò chơi Forecast Challenge	CV by level · the Forecast Challenge game
+Xuất kho vs nhu cầu · IQR · nhật ký điều chỉnh	Shipments vs demand · IQR · adjustment log
+Naive / Seasonal Naive / MA · 6 thước đo sai số	Naive / Seasonal Naive / MA · 6 error metrics
+Thanh trượt α · Holt · cuốn chiếu theo lag	α slider · Holt · rolling by lag
+Chỉ số mùa vụ · Holt-Winters · công cụ Tết dịch tháng	Seasonal indices · Holt-Winters · the moving-Tết tool
+Hồi quy tự chọn biến · baseline/uplift · lãi gộp KM	Regression with your choice of variables · baseline/uplift · promotion gross margin
+ABC-XYZ · bản đồ ADI/CV² · Croston/SBA/TSB · best-fit · SARIMA (mở rộng	ABC-XYZ · ADI/CV² map · Croston/SBA/TSB · best fit · SARIMA (extension
+FVA · Tracking Signal · mô phỏng đồng thuận	FVA · Tracking Signal · consensus simulation
+Safety Stock/ROP · đường cong mức phục vụ · cảnh báo sớm · hạn dùng · năng lực	Safety Stock/ROP · service-level curve · early warning · shelf life · capacity
+Chạy cả chu kỳ cho portfolio P0–P6 hoặc dữ liệu của bạn · xuất file bàn giao	Run the whole cycle for portfolio P0–P6 or your own data · export the handover file
+Buổi	Session
+Chặng	Stage
+Chủ đề	Topic
+Công cụ trong Lab	Tools in the Lab
+Mở các trang ở thanh bên trái. Mọi thao tác chỉ chạy trên trình duyệt của bạn, không lưu dữ liệu lên máy chủ.	Open the pages in the left sidebar. Everything runs only in your session; no data is stored on the server.
+Dữ liệu dùng trong Lab	Data used in the Lab
+Mã	Code
+Tên	Name
+Nhóm	Group
+ĐVT	Unit
+Giá NPP (k	Distributor price (k
+Hạn dùng (ngày	Shelf life (days
+Lead time (tuần	Lead time (weeks
+Trạng thái	Status
+Bảng	Table
+Trường	Field
+Ý nghĩa	Meaning
+Nguyên tắc dùng Lab	Ground rules for the Lab
+1) luôn so với mốc Naive; (2) chọn tham số trên train, chấm trên test	1) always compare with the Naive benchmark; (2) choose parameters on train, score on test
+3) đọc code trong thư mục	3) read the code in the
+nếu muốn biết bên trong một nút bấm làm gì — đó là cùng loại thuật toán	folder if you want to know what a button does inside — it is the same kind of algorithm
+chạy trong tầng	that runs in the
+của phần mềm APS thương mại.	layer of commercial APS software.
+Thống kê tự động (ETS/Holt-Winters), rà soát theo ngoại lệ	Automated statistics (ETS/Holt-Winters), review by exception
+Thống kê + rà soát hằng tháng với Sales/Marketing	Statistics + monthly review with Sales/Marketing
+Rà soát kỹ: hồi quy khuyến mãi/sự kiện + phán đoán có kiểm chứng (FVA	Close review: promotion/event regression + validated judgement (FVA
+Thống kê tự động	Automated statistics
+Thống kê tự động, rà soát theo ngoại lệ	Automated statistics, review by exception
+Phương pháp đơn giản bền vững (SES/MA) + tồn kho an toàn cao hơn	Simple robust methods (SES/MA) + higher safety stock
+Tự động, chu kỳ rà soát thưa	Automated, infrequent review
+Phương pháp đơn giản (MA/SES	Simple methods (MA/SES
+Croston/SBA hoặc sản xuất theo đơn (MTO); không đầu tư thời gian dự báo chi tiết	Croston/SBA or make to order (MTO); don't invest time in detailed forecasting
+Croston / SBA / TSB (nhu cầu rời rạc	Croston / SBA / TSB (intermittent demand
+Nối mã cũ–mới	Join old–new codes
+Nối mã	Join codes
+Cộng mã cũ và mã mới cùng hàng kế hoạch	Add the old and new codes of the same planning item
+Sửa đơn vị	Fix units
+Số ghi theo đơn vị lẻ, chia	Recorded in single units, divide by
+Hết hàng phía công ty; NPP vẫn bán từ tồn	Company-side stock-out; the distributor still sells from stock
+Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP	Shipments diverge from sell-out (distributor loading/destocking
+Dùng sell-out	Use sell-out
+Dùng PO của chuỗi (MT	Use the chain's PO (MT
+Quy đổi theo	Scaled up for
+ngày hết hàng	stock-out days
+Phục hồi hết hàng	Restore stock-out
+Hết hàng	Stock-out
+Nội suy	Interpolate
+Ô trống trong ERP	Blank cell in the ERP
+Không tìm thấy thư mục dữ liệu (cần sales_history.csv	Data folder not found (sales_history.csv is required
+Holt-Winters cộng	Additive Holt-Winters
+SKU × kênh	SKU × channel
+Nhóm hàng	Product group
+Toàn công ty	Whole company
+Smooth (đều	Smooth (regular
+Erratic (thất thường	Erratic (irregular
+Intermittent (rời rạc	Intermittent (sporadic
+Lumpy (rời rạc + gộp lô	Lumpy (sporadic + batched
+Bán nhanh — nguy cơ đứt hàng	Selling fast — stock-out risk
+Bán chậm — nguy cơ tồn/cận date	Selling slowly — risk of excess/near-expiry stock
+Giữ (p	Keep (p
+Cân nhắc bỏ	Consider dropping
+Chuỗi còn ô trống (NaN) — hãy làm sạch dữ liệu trước khi san bằng mũ (Buổi 2).	The series still has blank cells (NaN) — clean the data before smoothing (Session 2).
+Holt (tắt dần	Holt (damped
+Holt-Winters cần ít nhất	Holt-Winters needs at least
+kỳ dữ liệu (2 mùa).	periods of data (2 seasons).
+trong slide và file Excel	as the slides and Excel files
+!	name = "Holt-Winters " + ("nhân" if seasonal == "mul" else "cộng")	name = ("Multiplicative" if seasonal == "mul" else "Additive") + " Holt-Winters"

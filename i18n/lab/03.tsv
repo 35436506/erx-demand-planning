@@ -1,0 +1,22 @@
+Dự báo đầu tiên và đo sai số	Your first forecast and measuring error
+Ba phương pháp mốc (Naive, Seasonal Naive, MA) và sáu thước đo. Mọi mô hình ở các buổi sau phải thắng các mốc này trên dữ liệu TEST.	Three benchmark methods (Naive, Seasonal Naive, MA) and six metrics. Every model in later sessions must beat these benchmarks on TEST data.
+Số tháng test	Test months
+MA: số tháng	MA: months
+— train	— train
+tháng, test	months, test
+tháng	months
+Phương pháp	Method
+<b>Mỗi thước đo trả lời một câu hỏi.</b> ME/Bias: lệch về một phía? · MAE: sai bao nhiêu đơn vị? · RMSE: phạt sai số lớn	<b>Each metric answers one question.</b> ME/Bias: skewed to one side? · MAE: off by how many units? · RMSE: penalises large errors
+dùng cho Safety Stock) · MAPE: sai bao nhiêu % (thiên lệch ở mã nhỏ) · WMAPE: % có trọng số sản lượng · MASE: tốt hơn Naive bao nhiêu (	used for Safety Stock) · MAPE: off by what % (biased for small items) · WMAPE: volume-weighted % · MASE: how much better than Naive (
+1 là tốt hơn).	1 means better).
+<b>Bẫy MAPE:</b> chọn H02|GT hoặc K04|MT để xem MAPE	<b>The MAPE trap:</b> choose H02|GT or K04|MT to see MAPE
+nổ	explode
+vì có tháng thực tế rất nhỏ hoặc bằng 0.	because some actual months are tiny or zero.
+Không có	There is no
+MAPE chuẩn	standard MAPE
+cho mọi SKU — so với mốc Naive của chính SKU đó mới công bằng.	for every SKU — comparing with that SKU's own Naive benchmark is the fair test.
+Vì sao không chia train/test ngẫu nhiên?	Why not split train/test at random?
+Chuỗi thời gian có thứ tự. Chia ngẫu nhiên cho mô hình	Time series have an order. A random split lets the model
+nhìn thấy	see
+tháng sau để dự báo tháng trước — kết quả đẹp giả.	later months when forecasting earlier ones — results that look good but are fake.
+Luôn cắt theo thời gian: phần đầu để ước lượng, phần cuối giấu đi để chấm.	Always split by time: the first part to estimate, the last part hidden for scoring.

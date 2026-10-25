@@ -1,0 +1,121 @@
+!	<em>cả chuỗi</em> thấp nhất.	<em>for the whole chain</em>.
+!	<strong>0,5</strong>	<strong>0.5</strong>
+!	"T" + (k + 1)	"W" + (k + 1)
+Bán lẻ	Retailer
+Bán buôn	Wholesaler
+Nhà phân phối	Distributor
+Nhà máy	Factory
+Thiết lập ván chơi	Game setup
+Vai của bạn	Your role
+Thông tin	Information
+Nhu cầu khách	Customer demand
+Số tuần	Weeks
+Bắt đầu chơi	Start the game
+Xem máy tự chơi (so sánh 2 chế độ	Watch the computer play (compare 2 modes
+Ba khâu còn lại do máy điều khiển theo cách đặt hàng điển hình của con người (Sterman, 1989). Mỗi khâu chỉ thấy đơn của khâu ngay sau mình — trừ khi bật chế độ chia sẻ dữ liệu bán ra.	The other three stages are run by the computer using a typical human ordering pattern (Sterman, 1989). Each stage sees only the orders of the stage directly below it — unless sell-out data sharing is switched on.
+Luật chơi	Rules
+Mỗi tuần: nhận hàng về → nhận đơn của khâu sau → giao hàng (thiếu thì ghi nợ đơn) →	Each week: receive goods → receive the order from the stage below → ship (any shortfall becomes backlog) →
+bạn quyết định đặt bao nhiêu thùng	you decide how many cases to order
+lên khâu trên.	from the stage above.
+Đơn đặt tới khâu trên sau	Orders reach the stage above after
+1 tuần	1 week
+hàng đi đường mất	shipping takes
+2 tuần	2 weeks
+nhà máy sản xuất mất	factory production takes
+Chi phí	Cost
+mỗi thùng tồn kho/tuần	per case in stock per week
+mỗi thùng nợ đơn/tuần. Mục tiêu: tổng chi phí	per case backlogged per week. Goal: the lowest total cost
+cả chuỗi	for the whole chain
+thấp nhất.	.
+Ban đầu mọi khâu có 12 thùng tồn, 4 thùng đang về mỗi tuần, nhu cầu ổn định 4 thùng/tuần.	At the start every stage has 12 cases in stock, 4 cases arriving each week and steady demand of 4 cases/week.
+Cổ điển (chỉ thấy đơn	Classic (orders only
+Chia sẻ dữ liệu bán ra	Sell-out data shared
+Bậc 4 → 8 (cổ điển	Step 4 → 8 (classic
+Bậc + nhiễu	Step + noise
+Mùa vụ	Seasonal
+Tồn kho	Stock
+Nợ đơn	Backlog
+Máy điều khiển	Computer-run
+thông tin bị che	information hidden
+bạn	you
+Tuần	Week
+Cổ điển	Classic
+Khách hàng ← Bán lẻ ← Bán buôn ← Nhà phân phối ← Nhà máy (hàng đi sang trái, đơn đi sang phải).	Customer ← Retailer ← Wholesaler ← Distributor ← Factory (goods flow left, orders flow right).
+Hàng vừa về	Just arrived
+Đơn vừa nhận	Order just received
+từ khách hàng	from the customer
+từ	from
+Hàng đang về	In transit
+tuần sau · 2 tuần nữa	next week · in 2 weeks
+Đã đặt chưa nhận	On order, not received
+Khách cuối mua	End customers bought
+dữ liệu bán ra (POS	sell-out data (POS
+Đặt hàng tuần này	Order this week
+Đặt hàng	Place order
+Gợi ý theo công thức	Formula hint
+Lịch sử của bạn	Your history
+Chi phí của bạn	Your cost
+Tuần này: tồn	This week: stock
+× 0,5 + nợ	× 0.5 + backlog
+× 1 sẽ được tính sau khi đặt hàng.	× 1 will be charged after you order.
+Mẹo của Demand Planner	Demand Planner's tip
+đừng quên hàng	don't forget goods
+đã đặt nhưng chưa về	ordered but not yet arrived
+. Người chơi thường đặt dồn khi thiếu hàng rồi bị ngập hàng vài tuần sau — chính là Bullwhip.	. Players tend to over-order when short, then get flooded with stock a few weeks later — that is the bullwhip.
+Kết thúc sớm & xem kết quả	End early & see results
+Đơn bạn nhận	Orders you received
+Đơn bạn đặt	Orders you placed
+Tồn kho ròng (tồn − nợ	Net inventory (stock − backlog
+Lịch sử đơn hàng và tồn kho	Order and inventory history
+Biểu đồ xuất hiện sau tuần đầu tiên.	The chart appears after the first week.
+Gợi ý	Hint
+thùng = mức mục tiêu	cases = target level
+− vị thế tồn kho	− inventory position
+. Mức mục tiêu = nhu cầu dự kiến	. Target level = expected demand
+× 4 tuần (1 tuần đơn + 2 tuần vận chuyển + 1 tuần chu kỳ) + 12 thùng an toàn; vị thế tồn kho = tồn − nợ đơn + hàng đã đặt chưa về. Bạn vẫn tự quyết định.	× 4 weeks (1 week order delay + 2 weeks shipping + 1 week cycle) + 12 safety cases; inventory position = stock − backlog + goods on order. The decision is still yours.
+Kết quả sau	Results after
+tuần · bạn chơi vai	weeks · you played
+chia sẻ dữ liệu	data shared
+cổ điển	classic
+Chi phí cả chuỗi	Whole-chain cost
+kỷ lục mới của bạn ở vai này	your new record for this role
+kỷ lục	record
+Máy · chia sẻ dữ liệu	Computer · data shared
+cùng nhu cầu, cả chuỗi dùng sell-out	same demand, whole chain uses sell-out
+Máy · cổ điển	Computer · classic
+hành vi điển hình của con người	typical human behaviour
+Đơn đặt hàng của từng khâu so với nhu cầu khách cuối	Each stage's orders vs end-customer demand
+Tồn kho ròng (tồn − nợ đơn	Net inventory (stock − backlog
+Khâu	Stage
+Tỷ lệ Bullwhip	Bullwhip ratio
+Đơn lớn nhất	Largest order
+Tỷ lệ Bullwhip = phương sai đơn đặt của khâu ÷ phương sai nhu cầu khách cuối. Tỷ lệ tăng dần lên phía nhà máy là dấu hiệu của hiệu ứng roi da.	Bullwhip ratio = variance of the stage's orders ÷ variance of end-customer demand. A ratio that grows towards the factory is the signature of the bullwhip effect.
+Chơi lại	Play again
+Đổi vai / chế độ	Change role / mode
+Câu hỏi thảo luận	Discussion questions
+Nhu cầu khách chỉ tăng một lần từ 4 lên 8. Vì sao đơn của nhà máy dao động mạnh như vậy	Customer demand rose only once, from 4 to 8. Why do the factory's orders swing so much
+Bạn có tính đến hàng	Did you take into account goods
+khi quyết định không? Điều gì xảy ra khi quên nó	when deciding? What happens when you forget them
+Chế độ chia sẻ dữ liệu bán ra giảm chi phí bao nhiêu? Ở MBF, dữ liệu nào tương đương (DMS, POS của chuỗi MT	How much does sell-out data sharing cut the cost? At MBF, which data is the equivalent (DMS, MT chains' POS
+Nối với bốn nguyên nhân của Lee et al. (1997) — Lecture Notes mục 1.5 và tình huống P&amp;G, Barilla ở Chương 20.	Link to the four causes in Lee et al. (1997) — Lecture Notes section 1.5 and the P&amp;G and Barilla cases in Chapter 20.
+Khách cuối	End customer
+Đơn đặt hàng các khâu	Orders by stage
+Tồn kho ròng	Net inventory
+Xuất sắc!	Excellent!
+Chuỗi của bạn gần bằng phương án chia sẻ dữ liệu. Bạn đã tính đến hàng đang về và không phản ứng thái quá.	Your chain came close to the data-sharing benchmark. You accounted for goods in transit and didn't overreact.
+Tốt hơn hành vi điển hình.	Better than typical behaviour.
+Nhưng vẫn cao hơn phương án chia sẻ dữ liệu	But still higher than the data-sharing benchmark by
+— thử chơi lại ở chế độ chia sẻ để cảm nhận khác biệt.	— try again in sharing mode to feel the difference.
+Bullwhip đã xuất hiện.	The bullwhip has appeared.
+Chi phí cả chuỗi cao hơn phương án chia sẻ dữ liệu	The whole-chain cost is higher than the data-sharing benchmark by
+. Xem biểu đồ: khi thiếu hàng bạn có đặt dồn rồi bị ngập hàng vài tuần sau không	. Look at the chart: when you ran short, did you over-order and then get flooded a few weeks later
+Máy tự chơi: cùng nhu cầu, hai cách vận hành	The computer plays: same demand, two ways of operating
+Cổ điển · chi phí	Classic · cost
+Bullwhip nhà máy	Factory bullwhip
+Chia sẻ dữ liệu · chi phí	Data shared · cost
+Tiết kiệm	Saving
+Cổ điển — mỗi khâu chỉ thấy đơn của khâu sau	Classic — each stage sees only the orders of the stage below
+Chia sẻ dữ liệu bán ra — mọi khâu thấy nhu cầu khách cuối và tính đủ hàng đang về	Sell-out data shared — every stage sees end-customer demand and fully counts goods in transit
+Tự mình chơi	Play it yourself
+Chạy lại với nhu cầu mới	Rerun with new demand
+Chia sẻ dữ liệu	Data shared
