@@ -1,0 +1,171 @@
+﻿promo_id,sku,channel,month,depth,mechanic,marketing_expected_uplift,status
+P001,N01,MT,2024-02,0.25,Trưng bày + giảm giá,1.01,Đã chạy
+P002,N01,MT,2024-04,0.15,Trưng bày + giảm giá,0.68,Đã chạy
+P003,N01,MT,2024-10,0.15,Trưng bày + giảm giá,0.64,Đã chạy
+P004,N01,MT,2025-06,0.15,Giảm giá trực tiếp,0.6,Đã chạy
+P005,N01,MT,2025-08,0.2,Trưng bày + giảm giá,0.97,Đã chạy
+P006,N01,MT,2025-11,0.15,Trưng bày + giảm giá,0.74,Đã chạy
+P007,N01,MT,2026-01,0.15,Giảm giá trực tiếp,0.59,Đã chạy
+P008,N01,MT,2026-09,0.1,Giảm giá trực tiếp,0.37,Đã chạy
+P009,N01,MT,2026-11,0.1,Trưng bày + giảm giá,0.42,Đã duyệt
+P010,N01,MT,2027-06,0.1,Giảm giá trực tiếp,0.48,Kế hoạch (chưa duyệt)
+P011,N01,GT,2024-09,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P012,N01,GT,2025-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P013,N01,GT,2025-09,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P014,N01,GT,2026-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P015,N01,GT,2026-09,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P016,N01,GT,2027-03,0.05,Chiết khấu thương mại NPP,0.08,Kế hoạch (chưa duyệt)
+P017,N01,GT,2027-09,0.05,Chiết khấu thương mại NPP,0.08,Kế hoạch (chưa duyệt)
+P018,N02,MT,2023-12,0.1,Trưng bày + giảm giá,0.46,Đã chạy
+P019,N02,MT,2024-08,0.1,Giảm giá trực tiếp,0.36,Đã chạy
+P020,N02,MT,2024-12,0.15,Trưng bày + giảm giá,0.67,Đã chạy
+P021,N02,MT,2025-07,0.1,Giảm giá trực tiếp,0.36,Đã chạy
+P022,N02,MT,2025-11,0.25,Giảm giá trực tiếp,0.99,Đã chạy
+P023,N02,MT,2026-03,0.25,Trưng bày + giảm giá,1.2,Đã chạy
+P024,N02,MT,2026-05,0.15,Trưng bày + giảm giá,0.56,Đã chạy
+P025,N02,MT,2027-02,0.15,Mua 2 tặng 1 (quy đổi),0.55,Kế hoạch (chưa duyệt)
+P026,N02,MT,2027-06,0.1,Giảm giá trực tiếp,0.4,Kế hoạch (chưa duyệt)
+P027,N02,GT,2024-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P028,N02,GT,2024-09,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P029,N02,GT,2025-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P030,N02,GT,2026-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P031,N02,GT,2027-03,0.05,Chiết khấu thương mại NPP,0.08,Kế hoạch (chưa duyệt)
+P032,N02,GT,2027-09,0.05,Chiết khấu thương mại NPP,0.08,Kế hoạch (chưa duyệt)
+P033,N03,MT,2024-06,0.2,Mua 2 tặng 1 (quy đổi),0.97,Đã chạy
+P034,N03,MT,2024-08,0.15,Giảm giá trực tiếp,0.8,Đã chạy
+P035,N03,MT,2025-02,0.25,Giảm giá trực tiếp,1.35,Đã chạy
+P036,N03,MT,2025-04,0.15,Mua 2 tặng 1 (quy đổi),0.6,Đã chạy
+P037,N03,MT,2025-09,0.15,Mua 2 tặng 1 (quy đổi),0.62,Đã chạy
+P038,N03,MT,2025-12,0.1,Giảm giá trực tiếp,0.51,Đã chạy
+P039,N03,MT,2026-11,0.2,Mua 2 tặng 1 (quy đổi),0.86,Đã duyệt
+P040,N03,MT,2027-03,0.2,Trưng bày + giảm giá,1.05,Kế hoạch (chưa duyệt)
+P041,N03,MT,2027-07,0.15,Giảm giá trực tiếp,0.74,Kế hoạch (chưa duyệt)
+P042,N04,MT,2023-11,0.1,Giảm giá trực tiếp,0.3,Đã chạy
+P043,N04,MT,2024-11,0.25,Giảm giá trực tiếp,0.95,Đã chạy
+P044,N04,MT,2025-07,0.15,Giảm giá trực tiếp,0.46,Đã chạy
+P045,N04,MT,2025-09,0.15,Mua 2 tặng 1 (quy đổi),0.5,Đã chạy
+P046,N04,MT,2026-04,0.1,Giảm giá trực tiếp,0.35,Đã chạy
+P047,N04,MT,2027-09,0.1,Trưng bày + giảm giá,0.34,Kế hoạch (chưa duyệt)
+P048,N05,MT,2025-10,0.2,Giảm giá trực tiếp,0.88,Đã chạy
+P049,N05,MT,2026-01,0.1,Giảm giá trực tiếp,0.43,Đã chạy
+P050,N05,MT,2026-03,0.1,Trưng bày + giảm giá,0.48,Đã chạy
+P051,N05,MT,2026-05,0.15,Giảm giá trực tiếp,0.72,Đã chạy
+P052,N05,MT,2026-12,0.1,Trưng bày + giảm giá,0.41,Đã duyệt
+P053,N05,MT,2027-04,0.15,Giảm giá trực tiếp,0.54,Kế hoạch (chưa duyệt)
+P054,N05,MT,2027-06,0.2,Giảm giá trực tiếp,0.89,Kế hoạch (chưa duyệt)
+P055,N05,MT,2027-08,0.2,Giảm giá trực tiếp,0.95,Kế hoạch (chưa duyệt)
+P056,S01,MT,2024-03,0.15,Giảm giá trực tiếp,0.5,Đã chạy
+P057,S01,MT,2024-09,0.15,Mua 2 tặng 1 (quy đổi),0.53,Đã chạy
+P058,S01,MT,2024-11,0.15,Mua 2 tặng 1 (quy đổi),0.52,Đã chạy
+P059,S01,MT,2026-07,0.15,Mua 2 tặng 1 (quy đổi),0.46,Đã chạy
+P060,S01,MT,2026-10,0.25,Trưng bày + giảm giá,0.94,Đã duyệt
+P061,S01,MT,2027-07,0.15,Giảm giá trực tiếp,0.51,Kế hoạch (chưa duyệt)
+P062,S01,GT,2024-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P063,S01,GT,2024-09,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P064,S01,GT,2025-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P065,S01,GT,2026-09,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P066,S01,GT,2027-03,0.05,Chiết khấu thương mại NPP,0.08,Kế hoạch (chưa duyệt)
+P067,S02,MT,2023-10,0.1,Trưng bày + giảm giá,0.36,Đã chạy
+P068,S02,MT,2024-09,0.1,Giảm giá trực tiếp,0.37,Đã chạy
+P069,S02,MT,2025-10,0.2,Trưng bày + giảm giá,0.73,Đã chạy
+P070,S02,MT,2026-02,0.15,Mua 2 tặng 1 (quy đổi),0.48,Đã chạy
+P071,S02,MT,2026-10,0.25,Giảm giá trực tiếp,0.78,Đã duyệt
+P072,S02,MT,2027-01,0.25,Trưng bày + giảm giá,0.89,Kế hoạch (chưa duyệt)
+P073,S02,MT,2027-04,0.2,Trưng bày + giảm giá,0.73,Kế hoạch (chưa duyệt)
+P074,S02,MT,2027-06,0.2,Giảm giá trực tiếp,0.66,Kế hoạch (chưa duyệt)
+P075,S03,MT,2023-10,0.1,Giảm giá trực tiếp,0.43,Đã chạy
+P076,S03,MT,2024-01,0.2,Giảm giá trực tiếp,0.68,Đã chạy
+P077,S03,MT,2024-08,0.1,Giảm giá trực tiếp,0.43,Đã chạy
+P078,S03,MT,2025-01,0.2,Giảm giá trực tiếp,0.67,Đã chạy
+P079,S03,MT,2025-07,0.15,Giảm giá trực tiếp,0.51,Đã chạy
+P080,S03,MT,2025-10,0.1,Giảm giá trực tiếp,0.39,Đã chạy
+P081,S03,MT,2026-05,0.25,Mua 2 tặng 1 (quy đổi),0.83,Đã chạy
+P082,S03,MT,2026-10,0.15,Giảm giá trực tiếp,0.49,Đã duyệt
+P083,S03,MT,2027-01,0.1,Trưng bày + giảm giá,0.32,Kế hoạch (chưa duyệt)
+P084,S03,MT,2027-08,0.15,Giảm giá trực tiếp,0.57,Kế hoạch (chưa duyệt)
+P085,S04,MT,2023-10,0.15,Mua 2 tặng 1 (quy đổi),0.56,Đã chạy
+P086,S04,MT,2025-09,0.1,Mua 2 tặng 1 (quy đổi),0.29,Đã chạy
+P087,S04,MT,2025-11,0.1,Mua 2 tặng 1 (quy đổi),0.36,Đã chạy
+P088,S04,MT,2026-03,0.2,Mua 2 tặng 1 (quy đổi),0.76,Đã chạy
+P089,S04,MT,2026-08,0.15,Mua 2 tặng 1 (quy đổi),0.46,Đã chạy
+P090,S04,MT,2027-04,0.1,Trưng bày + giảm giá,0.3,Kế hoạch (chưa duyệt)
+P091,S04,GT,2024-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P092,S04,GT,2025-09,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P093,S04,GT,2026-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P094,S04,GT,2026-09,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P095,S04,GT,2027-03,0.05,Chiết khấu thương mại NPP,0.08,Kế hoạch (chưa duyệt)
+P096,S05,MT,2023-12,0.1,Giảm giá trực tiếp,0.34,Đã chạy
+P097,S05,MT,2024-07,0.1,Trưng bày + giảm giá,0.33,Đã chạy
+P098,S05,MT,2025-01,0.15,Trưng bày + giảm giá,0.46,Đã chạy
+P099,S05,MT,2026-02,0.15,Mua 2 tặng 1 (quy đổi),0.5,Đã chạy
+P100,S05,MT,2026-08,0.25,Trưng bày + giảm giá,0.66,Đã chạy
+P101,S05,MT,2026-11,0.1,Mua 2 tặng 1 (quy đổi),0.29,Đã duyệt
+P102,S06,MT,2023-11,0.2,Trưng bày + giảm giá,0.71,Đã chạy
+P103,S06,MT,2024-09,0.2,Mua 2 tặng 1 (quy đổi),0.61,Đã chạy
+P104,S06,MT,2025-04,0.15,Mua 2 tặng 1 (quy đổi),0.54,Đã chạy
+P105,S06,MT,2025-07,0.15,Trưng bày + giảm giá,0.5,Đã chạy
+P106,S06,MT,2025-09,0.2,Trưng bày + giảm giá,0.71,Đã chạy
+P107,S06,MT,2026-02,0.1,Trưng bày + giảm giá,0.33,Đã chạy
+P108,S06,MT,2026-05,0.15,Giảm giá trực tiếp,0.47,Đã chạy
+P109,S06,MT,2027-08,0.15,Trưng bày + giảm giá,0.45,Kế hoạch (chưa duyệt)
+P110,B01,MT,2023-12,0.15,Mua 2 tặng 1 (quy đổi),0.52,Đã chạy
+P111,B01,MT,2024-08,0.15,Giảm giá trực tiếp,0.63,Đã chạy
+P112,B01,MT,2024-11,0.15,Trưng bày + giảm giá,0.51,Đã chạy
+P113,B01,MT,2026-05,0.2,Mua 2 tặng 1 (quy đổi),0.67,Đã chạy
+P114,B01,MT,2027-05,0.15,Giảm giá trực tiếp,0.52,Kế hoạch (chưa duyệt)
+P115,B02,MT,2023-10,0.25,Giảm giá trực tiếp,0.74,Đã chạy
+P116,B02,MT,2023-12,0.1,Mua 2 tặng 1 (quy đổi),0.36,Đã chạy
+P117,B02,MT,2024-04,0.1,Giảm giá trực tiếp,0.32,Đã chạy
+P118,B02,MT,2024-06,0.2,Mua 2 tặng 1 (quy đổi),0.77,Đã chạy
+P119,B02,MT,2024-10,0.1,Giảm giá trực tiếp,0.29,Đã chạy
+P120,B02,MT,2024-12,0.15,Giảm giá trực tiếp,0.52,Đã chạy
+P121,B02,MT,2026-01,0.15,Mua 2 tặng 1 (quy đổi),0.49,Đã chạy
+P122,B02,MT,2026-04,0.1,Giảm giá trực tiếp,0.32,Đã chạy
+P123,B02,MT,2026-07,0.1,Trưng bày + giảm giá,0.37,Đã chạy
+P124,B02,MT,2027-01,0.2,Mua 2 tặng 1 (quy đổi),0.76,Kế hoạch (chưa duyệt)
+P125,B02,GT,2024-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P126,B02,GT,2025-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P127,B02,GT,2026-03,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P128,B02,GT,2026-09,0.05,Chiết khấu thương mại NPP,0.08,Đã chạy
+P129,B02,GT,2027-03,0.05,Chiết khấu thương mại NPP,0.08,Kế hoạch (chưa duyệt)
+P130,B02,GT,2027-09,0.05,Chiết khấu thương mại NPP,0.08,Kế hoạch (chưa duyệt)
+P131,B03,MT,2023-10,0.1,Mua 2 tặng 1 (quy đổi),0.4,Đã chạy
+P132,B03,MT,2023-12,0.1,Mua 2 tặng 1 (quy đổi),0.32,Đã chạy
+P133,B03,MT,2024-06,0.1,Trưng bày + giảm giá,0.32,Đã chạy
+P134,B03,MT,2024-08,0.15,Giảm giá trực tiếp,0.56,Đã chạy
+P135,B03,MT,2024-10,0.25,Trưng bày + giảm giá,0.83,Đã chạy
+P136,B03,MT,2024-12,0.2,Giảm giá trực tiếp,0.77,Đã chạy
+P137,B03,MT,2025-04,0.15,Trưng bày + giảm giá,0.55,Đã chạy
+P138,B03,MT,2025-08,0.15,Giảm giá trực tiếp,0.55,Đã chạy
+P139,B03,MT,2026-09,0.2,Giảm giá trực tiếp,0.79,Đã chạy
+P140,B03,MT,2026-12,0.2,Mua 2 tặng 1 (quy đổi),0.76,Đã duyệt
+P141,B03,MT,2027-02,0.25,Mua 2 tặng 1 (quy đổi),0.76,Kế hoạch (chưa duyệt)
+P142,B03,MT,2027-04,0.2,Trưng bày + giảm giá,0.61,Kế hoạch (chưa duyệt)
+P143,B04,MT,2024-07,0.1,Trưng bày + giảm giá,0.31,Đã chạy
+P144,B04,MT,2024-09,0.25,Trưng bày + giảm giá,0.75,Đã chạy
+P145,B04,MT,2025-11,0.1,Mua 2 tặng 1 (quy đổi),0.28,Đã chạy
+P146,B04,MT,2026-04,0.2,Mua 2 tặng 1 (quy đổi),0.59,Đã chạy
+P147,B04,MT,2026-11,0.15,Trưng bày + giảm giá,0.49,Đã duyệt
+P148,B05,MT,2023-12,0.1,Trưng bày + giảm giá,0.46,Đã chạy
+P149,B05,MT,2024-02,0.2,Giảm giá trực tiếp,0.84,Đã chạy
+P150,B05,MT,2024-05,0.1,Mua 2 tặng 1 (quy đổi),0.4,Đã chạy
+P151,B05,MT,2024-09,0.15,Giảm giá trực tiếp,0.57,Đã chạy
+P152,B05,MT,2025-01,0.25,Mua 2 tặng 1 (quy đổi),1.04,Đã chạy
+P153,B05,MT,2025-03,0.1,Giảm giá trực tiếp,0.39,Đã chạy
+P154,B05,MT,2025-05,0.15,Giảm giá trực tiếp,0.63,Đã chạy
+P155,B05,MT,2025-12,0.1,Mua 2 tặng 1 (quy đổi),0.44,Đã chạy
+P156,B05,MT,2026-09,0.1,Mua 2 tặng 1 (quy đổi),0.35,Đã chạy
+P157,B05,MT,2027-01,0.15,Giảm giá trực tiếp,0.52,Kế hoạch (chưa duyệt)
+P158,B05,MT,2027-03,0.1,Mua 2 tặng 1 (quy đổi),0.37,Kế hoạch (chưa duyệt)
+P159,K01,MT,2023-10,0.25,Giảm giá trực tiếp,1.09,Đã chạy
+P160,K01,MT,2024-02,0.25,Trưng bày + giảm giá,1.01,Đã chạy
+P161,K01,MT,2024-09,0.25,Mua 2 tặng 1 (quy đổi),0.86,Đã chạy
+P162,K01,MT,2024-12,0.25,Giảm giá trực tiếp,1.09,Đã chạy
+P163,K01,MT,2025-03,0.1,Giảm giá trực tiếp,0.38,Đã chạy
+P164,K01,MT,2026-03,0.2,Trưng bày + giảm giá,0.76,Đã chạy
+P165,K01,MT,2026-11,0.25,Trưng bày + giảm giá,1.1,Đã duyệt
+P166,K01,MT,2027-09,0.15,Mua 2 tặng 1 (quy đổi),0.49,Kế hoạch (chưa duyệt)
+P167,K03,MT,2023-11,0.2,Mua 2 tặng 1 (quy đổi),0.5,Đã chạy
+P168,K03,MT,2024-02,0.15,Trưng bày + giảm giá,0.42,Đã chạy
+P169,K03,MT,2024-09,0.1,Giảm giá trực tiếp,0.25,Đã chạy
+P170,K03,MT,2025-11,0.15,Trưng bày + giảm giá,0.44,Đã chạy

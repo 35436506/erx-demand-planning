@@ -1,0 +1,91 @@
+﻿series,month,original,adjusted,rule,reason,evidence
+N01|GT,2023-12,40909.0,36704.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2024-01,41127.0,46985.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2024-03,44624.0,39799.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2024-04,34385.0,38450.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2024-06,45118.0,39981.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2024-07,36311.0,39408.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2024-09,58884.0,51728.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2024-10,44679.0,48357.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2024-12,50736.0,44589.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2025-01,34671.0,48187.0,Dùng sell-out,Hết hàng phía công ty; NPP vẫn bán từ tồn,sellout_dms
+N01|GT,2025-03,38059.0,33520.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2025-04,27997.0,30987.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2025-05,30646.0,29792.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2025-06,40162.0,35593.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2025-07,43600.0,48734.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2025-09,61977.0,54745.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2025-10,44289.0,49986.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2025-11,48066.0,46973.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2025-12,47842.0,41917.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2026-01,47369.0,53192.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2026-02,47977.0,49180.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2026-03,48786.0,43881.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2026-04,39838.0,44237.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2026-05,47562.0,45996.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2026-06,51318.0,44430.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2026-07,38545.0,42911.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N01|GT,2026-09,55051.0,48338.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2023-12,17450.0,15801.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2024-01,16653.0,18541.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2024-03,16901.0,15092.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2024-04,14515.0,16100.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2024-06,20639.0,18158.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2024-07,18581.0,21518.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2024-09,16606.0,14912.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2024-10,13451.0,15064.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2024-11,19172.0,19712.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2024-12,15438.0,13948.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2025-01,16378.0,17760.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2025-02,13265.0,13544.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2025-03,20777.0,18456.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2025-04,14311.0,15927.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2025-06,22500.0,20248.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2025-07,21165.0,23287.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2025-09,22868.0,20331.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2025-10,14740.0,16851.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2025-11,19480.0,20059.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2025-12,19485.0,17409.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2026-01,17077.0,18992.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2026-03,16744.0,15198.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2026-04,15009.0,16595.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2026-06,22841.0,20693.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2026-07,14925.0,16449.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N02|GT,2026-09,23258.0,20273.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+N03|GT,2024-08,136656.0,5694.0,Sửa đơn vị,"Số ghi theo đơn vị lẻ, chia 24",units_per_carton
+N03|MT,2026-03,3480.0,6743.0,Phục hồi hết hàng,Dùng PO của chuỗi (MT),stockout_days
+S01|GT,2023-11,8630.0,8881.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2023-12,10210.0,9215.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2024-01,11343.0,12879.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2024-03,11857.0,10625.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2024-04,8013.0,8777.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2024-06,18863.0,17037.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2024-07,6313.0,7025.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2024-08,8991.0,8800.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2024-09,9277.0,8120.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2024-10,8256.0,8983.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2024-12,11610.0,10687.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-01,13742.0,15581.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-02,7377.0,7167.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-03,10335.0,9425.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-04,8367.0,9428.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-05,8626.0,8426.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-06,11049.0,9820.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-07,7826.0,8838.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-09,12059.0,10556.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-10,9789.0,10977.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-11,10229.0,9901.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2025-12,10423.0,9275.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2026-01,12188.0,13773.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2026-03,10244.0,9078.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2026-04,8486.0,9555.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2026-06,10725.0,9764.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2026-07,7848.0,8834.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|GT,2026-09,12335.0,11134.0,Dùng sell-out,Xuất kho lệch bán ra (đẩy hàng/xả hàng NPP),sellout_dms
+S01|MT,2026-01,5654.0,6741.0,Phục hồi hết hàng,Dùng PO của chuỗi (MT),stockout_days
+S02|MT,2025-07,,3784.5,Nội suy,Thiếu dữ liệu,Ô trống trong ERP
+S04|GT,2024-11,3649.0,6081.666666666667,Phục hồi hết hàng,Quy đổi theo 12 ngày hết hàng,stockout_days
+S06|GT,2025-02,,2624.0,Nối mã,Cộng mã cũ và mã mới cùng hàng kế hoạch,sku_master.planning_item
+S06|MT,2025-02,,1371.0,Nối mã,Cộng mã cũ và mã mới cùng hàng kế hoạch,sku_master.planning_item
+B01|MT,2025-05,5448.0,7677.0,Phục hồi hết hàng,Dùng PO của chuỗi (MT),stockout_days
+B02|GT,2026-06,10953.0,14286.521739130434,Phục hồi hết hàng,Quy đổi theo 7 ngày hết hàng,stockout_days

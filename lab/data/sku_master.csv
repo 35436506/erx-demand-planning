@@ -1,0 +1,26 @@
+﻿sku,name,category,uom,units_per_carton,price_k,cost_k,shelf_life_days,lead_time_weeks,moq,pattern_note,planning_item,status,channels,supply_type,pallet_cartons
+N01,Mì Tôm Chua Cay 75g,Mì ăn liền,thùng,30,118.0,84,180,2,500,"Ổn định, khối lượng lớn",N01,Đang bán,"GT, MT",MTS,60
+N02,Mì Bò Hầm 75g,Mì ăn liền,thùng,30,122.0,87,180,2,500,"Ổn định, khuyến mãi MT",N02,Đang bán,"GT, MT",MTS,60
+N03,Mì Ly Hải Sản 65g,Mì ăn liền,thùng,24,196.0,138,180,2,300,Tăng trưởng,N03,Đang bán,"GT, MT",MTS,60
+N04,Phở Bò Gói 70g,Mì ăn liền,thùng,30,165.0,118,180,2,300,Giảm nhẹ,N04,Đang bán,"GT, MT",MTS,60
+N05,Mì Trộn Xốt Cay 90g,Mì ăn liền,thùng,30,175.0,120,180,2,300,Sản phẩm mới (ra mắt 07/2025),N05,Mới (07/2025),"GT, MT",MTS,60
+N06,Mì Chay Rau Nấm 75g,Mì ăn liền,thùng,30,120.0,88,180,2,300,Ngừng bán (hàng cuối 06/2026),N06,Ngừng bán 06/2026,"GT, MT",MTS,60
+S01,Nước Mắm Cá Cơm 500ml,Gia vị,thùng,12,372.0,250,540,3,200,Mùa vụ Tết mạnh,S01,Đang bán,"GT, MT",MTS,70
+S02,Nước Tương Đậu Nành 500ml,Gia vị,thùng,12,228.0,150,540,3,200,Mùa vụ Tết,S02,Đang bán,"GT, MT",MTS,70
+S03,Tương Ớt Chua Ngọt 250g,Gia vị,thùng,24,264.0,170,365,3,200,Khuyến mãi dày,S03,Đang bán,"GT, MT",MTS,70
+S04,Hạt Nêm Thịt Heo 400g,Gia vị,thùng,24,768.0,520,365,3,150,"Mùa vụ Tết, tăng trưởng",S04,Đang bán,"GT, MT",MTS,70
+S05,Dầu Hào 350g,Gia vị,thùng,24,552.0,370,540,4,100,Biến động vừa,S05,Đang bán,"GT, MT",MTS,70
+S06,Nước Mắm Cá Cơm 1L (chai PET – mã cũ),Gia vị,thùng,6,390.0,262,540,3,100,Đổi mã → S06N từ 02/2025,S06,Ngừng (thay bằng S06N),"GT, MT",MTS,70
+B01,Trà Xanh Chanh 450ml,Đồ uống,thùng,24,168.0,104,270,3,500,Mùa hè mạnh (nhân),B01,Đang bán,"GT, MT",MTS,80
+B02,Nước Tăng Lực Lon 250ml,Đồ uống,thùng,24,240.0,150,365,3,500,Tăng trưởng + mùa hè,B02,Đang bán,"GT, MT",MTS,80
+B03,Sữa Đậu Nành Hộp 200ml,Đồ uống,thùng,48,264.0,175,240,2,300,Mùa khai giảng,B03,Đang bán,"GT, MT",MTS,80
+B04,Nước Yến Lon 190ml,Đồ uống,thùng,30,315.0,205,540,4,200,Quà Tết,B04,Đang bán,"GT, MT",MTS,80
+B05,Trà Sữa Chai 350ml,Đồ uống,thùng,24,216.0,140,180,3,200,"Xu hướng mới, biến động",B05,Đang bán,"GT, MT",MTS,80
+K01,Snack Khoai Tây 50g,Bánh kẹo & quà,thùng,40,280.0,180,240,3,200,Khuyến mãi + khai giảng,K01,Đang bán,"GT, MT",MTS,50
+K02,Bánh Quy Bơ Hộp Thiếc 400g,Bánh kẹo & quà,thùng,12,1140.0,720,365,8,100,"Mùa vụ quà Tết, 1 đỉnh/năm",K02,Đang bán,"GT, MT",MTS,50
+K03,Kẹo Dẻo Trái Cây 100g,Bánh kẹo & quà,thùng,48,336.0,210,365,3,100,Biến động mạnh,K03,Đang bán,"GT, MT",MTS,50
+K04,Giỏ Quà Tết Cao Cấp,Bánh kẹo & quà,hộp,1,650.0,430,180,10,50,"Rời rạc, chỉ mùa Tết",K04,Đang bán,MT,MTS,50
+H01,Hạt Nêm Bao 10kg (HoReCa),B2B / HoReCa,bao,1,980.0,690,365,3,20,Gộp lô (lumpy),H01,Đang bán,GT,MTS,40
+H02,Nước Mắm Can 20L (HoReCa),B2B / HoReCa,can,1,760.0,520,540,3,10,Rời rạc (intermittent),H02,Đang bán,GT,MTS,40
+H03,Bột Gia Vị OEM (lô 500 kg),B2B / HoReCa,lô,1,41000.0,33500,360,6,1,"Đơn OEM theo lô, rất rời rạc",H03,Đang bán,GT,MTO,40
+S06N,Nước Mắm Cá Cơm 1L (chai thủy tinh – mã mới),Gia vị,thùng,6,413.4,262,540,3,100,Mã mới thay S06 từ 02/2025,S06,Đang bán,"GT, MT",MTS,70

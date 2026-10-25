@@ -1,0 +1,72 @@
+# Web server for the all-in-one deployment (Railway / Docker).
+#   /                    → language router → /vi/ or /en/   (stand-alone demo of the module)
+#   /vi/…, /en/…         → the module's pages;  /assets, /files, /config.js are shared by both languages
+#   /lab/…               → Forecasting Lab (Streamlit, internal port 8501, bilingual via ?lang=)
+#   /demand-planning/…   → the SAME module mounted under a sub-path, exactly as ERX's central site will host it
+#                          (proves every link is relative; the Lab is reached at /demand-planning/lab/)
+{
+	admin off
+	auto_https off
+}
+
+(static) {
+	root * /srv/site
+	header /assets/* Cache-Control "public, max-age=86400"
+	header /files/* Cache-Control "public, max-age=86400"
+	header /config.js Cache-Control "no-cache"
+	header /module.json Cache-Control "no-cache"
+	try_files {path} {path}.html {path}/index.html
+	file_server
+}
+
+:{$PORT:8080} {
+	encode zstd gzip
+
+	# --- module mounted under a sub-path (integration preview)
+	redir /demand-planning /demand-planning/ 308
+	handle_path /demand-planning/* {
+		@sublab path /lab /lab/*
+		handle @sublab {
+			reverse_proxy 127.0.0.1:8501
+		}
+		handle {
+			import static
+		}
+	}
+
+	# --- stand-alone demo at the root
+	@lab path /lab /lab/*
+	handle @lab {
+		reverse_proxy 127.0.0.1:8501
+	}
+	handle {
+		import static
+	}
+
+	handle_errors {
+		@en404 {
+			expression {err.status_code} == 404
+			path /en/* /demand-planning/en/*
+		}
+		@vi404 {
+			expression {err.status_code} == 404
+			path /vi/* /demand-planning/vi/*
+		}
+		@any404 expression {err.status_code} == 404
+		handle @en404 {
+			root * /srv/site
+			rewrite * /en/404.html
+			file_server
+		}
+		handle @vi404 {
+			root * /srv/site
+			rewrite * /vi/404.html
+			file_server
+		}
+		handle @any404 {
+			root * /srv/site
+			rewrite * /404.html
+			file_server
+		}
+	}
+}

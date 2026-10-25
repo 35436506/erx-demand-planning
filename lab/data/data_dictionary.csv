@@ -1,0 +1,26 @@
+﻿table,field,meaning,type,unit,notes
+sku_master,sku,Mã hàng (mã ERP),text,,S06 và S06N là cùng một hàng kế hoạch (đổi mã)
+sku_master,planning_item,Mã hàng kế hoạch dùng để nối lịch sử,text,,Dùng cột này để ghép S06+S06N
+sku_master,uom,Đơn vị kế hoạch,text,,Mọi số lượng trong sales_history tính theo đơn vị này
+sku_master,units_per_carton,Số đơn vị bán lẻ/thùng,số,gói/ly/chai/hộp,Dùng để phát hiện lỗi đơn vị
+sku_master,price_k / cost_k,Giá bán NPP / giá vốn,số,nghìn đồng/đơn vị kế hoạch,Dùng cho quy đổi sản lượng → giá trị
+sku_master,shelf_life_days,Hạn sử dụng,số,ngày,
+sku_master,lead_time_weeks,Thời gian bổ sung (sản xuất/nhập),số,tuần,Dùng cho Safety Stock
+sku_master,moq,Lượng đặt/sản xuất tối thiểu,số,đơn vị kế hoạch,
+sales_history,month,Tháng (YYYY-MM),text,,36 tháng: 2023-10 → 2026-09
+sales_history,channel,Kênh,text,GT / MT,"GT = truyền thống (gồm HoReCa/B2B); MT = siêu thị, chuỗi"
+sales_history,orders,Số lượng đặt hàng,số,đơn vị kế hoạch,"MT: PO của chuỗi, ghi đủ cả khi hết hàng. GT: NPP không ghi đơn bị từ chối"
+sales_history,shipments,Số lượng xuất kho,số,đơn vị kế hoạch,Bị giới hạn bởi tồn kho; có đẩy hàng cuối quý ở GT
+sales_history,returns,Hàng trả về ghi nhận trong tháng,số,đơn vị kế hoạch,
+sales_history,net_shipments,shipments − returns,số,đơn vị kế hoạch,Đây là số 'doanh số' trên báo cáo tài chính — KHÔNG phải nhu cầu
+sales_history,stockout_days,Số ngày hết hàng trong tháng,số,ngày,Từ báo cáo kho
+sellout_dms,sellout_dms,Số bán ra từ NPP tới cửa hàng (DMS),số,đơn vị kế hoạch,"Chỉ có cho N01, N02, S01 kênh GT"
+promo_calendar,depth,Mức giảm giá,%,,
+promo_calendar,marketing_expected_uplift,Uplift Marketing kỳ vọng,%,,Thường lạc quan — kiểm chứng bằng dữ liệu
+prices,net_price_k,Giá thực sau khuyến mãi,số,nghìn đồng,Tăng giá mì 5% từ 01/2025
+calendar,tet_pre_share,Tỷ trọng 35 ngày trước Tết rơi vào tháng,0–1,,Biến giải thích cho hiệu ứng Tết dịch tháng
+calendar,tet_post_share,Tỷ trọng 15 ngày sau Tết rơi vào tháng,0–1,,
+inventory_snapshot,remaining_pct,% hạn dùng còn lại,0–1,,Ngưỡng nhận hàng của MT thường ≥ 2/3 hạn dùng
+in_month_tracking,actual_day1_14,Bán thực tế 14 ngày đầu tháng 10/2026,số,đơn vị kế hoạch,So với forecast tháng × 14/31
+capacity,regular_capacity / overtime_capacity,Năng lực sản xuất,số,thùng/tháng,
+forecast_history,stat_forecast / sales_input / consensus,Các phiên bản forecast lag-1,số,đơn vị kế hoạch,Dùng cho FVA ở Buổi 8
