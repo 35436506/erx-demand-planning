@@ -1,0 +1,197 @@
+{
+  "id": "demand-planning",
+  "title": {
+    "vi": "Demand Planning & Forecasting in Practice",
+    "en": "Demand Planning & Forecasting in Practice"
+  },
+  "summary": {
+    "vi": "Khóa 10 buổi: dự báo nhu cầu, Demand Review, tồn kho và S&OP trên case Mekong Bloom Foods.",
+    "en": "10-session course: demand forecasting, Demand Review, inventory and S&OP on the Mekong Bloom Foods case."
+  },
+  "owner": {
+    "name": "Thư Nguyễn",
+    "email": "thu.minh090997@gmail.com"
+  },
+  "languages": [
+    "vi",
+    "en"
+  ],
+  "defaultLanguage": "vi",
+  "suggestedMountPath": "/demand-planning/",
+  "entry": {
+    "router": "index.html",
+    "vi": "vi/index.html",
+    "en": "en/index.html"
+  },
+  "sharedFolders": [
+    "assets/",
+    "files/",
+    "config.js"
+  ],
+  "lab": {
+    "kind": "streamlit",
+    "path": "lab/",
+    "health": "lab/_stcore/health",
+    "languageParam": "lang",
+    "overrideWith": "config.js → LAB_URL"
+  },
+  "storageKeys": {
+    "language": "erx.lang",
+    "theme": "erx_theme",
+    "progress": "erx_dpf_progress_v1",
+    "games": "erx_games"
+  },
+  "links": {
+    "downstream": [
+      {
+        "module": "production-planning",
+        "via": "Lab · Session 10 handover file (consensus demand, unconstrained, with error σ and safety stock)"
+      },
+      {
+        "module": "procurement",
+        "via": "the same consensus demand → MRP"
+      },
+      {
+        "module": "warehouse",
+        "via": "safety stock / ROP and shelf-life (FEFO) alerts from Session 9"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "file": "bai-tap.html",
+      "vi": "Bài tập về nhà",
+      "en": "Homework"
+    },
+    {
+      "file": "buoi-01.html",
+      "vi": "Buổi 1 · Dự báo nhu cầu để làm gì & phân cấp dự báo",
+      "en": "Session 1 · Why forecast demand & forecasting hierarchy"
+    },
+    {
+      "file": "buoi-02.html",
+      "vi": "Buổi 2 · Hiểu và làm sạch dữ liệu nhu cầu",
+      "en": "Session 2 · Understanding and cleaning demand data"
+    },
+    {
+      "file": "buoi-03.html",
+      "vi": "Buổi 3 · Dự báo đầu tiên và đo sai số",
+      "en": "Session 3 · Your first forecast and measuring error"
+    },
+    {
+      "file": "buoi-04.html",
+      "vi": "Buổi 4 · Exponential Smoothing & dự báo cuốn chiếu",
+      "en": "Session 4 · Exponential Smoothing & rolling forecasts"
+    },
+    {
+      "file": "buoi-05.html",
+      "vi": "Buổi 5 · Mùa vụ & hiệu ứng Tết âm lịch",
+      "en": "Session 5 · Seasonality & the Lunar New Year (Tết) effect"
+    },
+    {
+      "file": "buoi-06.html",
+      "vi": "Buổi 6 · Hồi quy, giá và khuyến mãi",
+      "en": "Session 6 · Regression, price and promotions"
+    },
+    {
+      "file": "buoi-07.html",
+      "vi": "Buổi 7 · Chọn mô hình theo nhóm sản phẩm",
+      "en": "Session 7 · Choosing models by product group"
+    },
+    {
+      "file": "buoi-08.html",
+      "vi": "Buổi 8 · Phối hợp phòng ban & Demand Review",
+      "en": "Session 8 · Cross-functional collaboration & Demand Review"
+    },
+    {
+      "file": "buoi-09.html",
+      "vi": "Buổi 9 · Từ dự báo đến tồn kho và S&OP",
+      "en": "Session 9 · From forecast to inventory and S&OP"
+    },
+    {
+      "file": "buoi-10.html",
+      "vi": "Buổi 10 · Mô phỏng họp S&OP & bàn giao",
+      "en": "Session 10 · S&OP meeting simulation & handover"
+    },
+    {
+      "file": "capstone.html",
+      "vi": "Capstone",
+      "en": "Capstone"
+    },
+    {
+      "file": "game-abc-xyz.html",
+      "vi": "Thử thách ABC × XYZ",
+      "en": "ABC × XYZ challenge"
+    },
+    {
+      "file": "game-beer-game.html",
+      "vi": "Beer Game · Hiệu ứng roi da",
+      "en": "Beer Game · The bullwhip effect"
+    },
+    {
+      "file": "game-du-bao.html",
+      "vi": "Người vs máy · Thử thách dự báo",
+      "en": "Human vs machine · Forecasting challenge"
+    },
+    {
+      "file": "game-newsvendor.html",
+      "vi": "Newsvendor · Sản xuất hàng Tết",
+      "en": "Newsvendor · Producing Tết goods"
+    },
+    {
+      "file": "game-pegels.html",
+      "vi": "Đoán ô Pegels",
+      "en": "Guess the Pegels cell"
+    },
+    {
+      "file": "game-ton-kho.html",
+      "vi": "Thử thách tồn kho (s, Q) · (R, S)",
+      "en": "Inventory challenge (s, Q) · (R, S)"
+    },
+    {
+      "file": "index.html",
+      "vi": "Trang chủ",
+      "en": "Home"
+    },
+    {
+      "file": "lab.html",
+      "vi": "Forecasting Lab",
+      "en": "Forecasting Lab"
+    },
+    {
+      "file": "lich-hoc.html",
+      "vi": "Lịch học",
+      "en": "Schedule"
+    },
+    {
+      "file": "so-tay.html",
+      "vi": "Sổ tay khóa học",
+      "en": "Course handbook"
+    },
+    {
+      "file": "thu-vien.html",
+      "vi": "Thư viện",
+      "en": "Library"
+    },
+    {
+      "file": "tien-do.html",
+      "vi": "Tiến độ",
+      "en": "Progress"
+    },
+    {
+      "file": "tieu-chi-cham.html",
+      "vi": "Tiêu chí chấm điểm",
+      "en": "Grading criteria"
+    },
+    {
+      "file": "tro-choi.html",
+      "vi": "Trò chơi mô phỏng",
+      "en": "Simulation games"
+    },
+    {
+      "file": "xem.html",
+      "vi": "Trình đọc tài liệu",
+      "en": "Document reader"
+    }
+  ]
+}

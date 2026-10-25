@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ERX Demand Planning</title>
+<link rel="alternate" hreflang="vi" href="vi/">
+<link rel="alternate" hreflang="en" href="en/">
+<script src="config.js"></script>
+<script>
+/* Language router: the choice is shared by every ERX module through localStorage "erx.lang". */
+(function () {
+  var lang = "vi";
+  try { var s = localStorage.getItem("erx.lang"); if (s === "en" || s === "vi") lang = s; else if (window.ERX_CONFIG && ERX_CONFIG.DEFAULT_LANG) lang = ERX_CONFIG.DEFAULT_LANG; } catch (e) {}
+  var q = new URLSearchParams(location.search).get("lang"); if (q === "en" || q === "vi") lang = q;
+  location.replace(lang + "/" + location.hash);
+})();
+</script>
+<style>body{font-family:system-ui,sans-serif;margin:0;display:grid;place-items:center;min-height:100vh;background:#fff;color:#1F2421}
+a{color:#008A3A;margin:0 .6em;font-weight:600}@media (prefers-color-scheme:dark){body{background:#121614;color:#E8ECE9}a{color:#3CC872}}</style>
+</head>
+<body><p><a href="vi/">Tiếng Việt</a> · <a href="en/">English</a></p></body>
+</html>
